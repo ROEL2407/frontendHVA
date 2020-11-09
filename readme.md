@@ -77,10 +77,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen) overzichtspagina:**
 
-<img src="images/overzicht.PNG" width="375px" alt="Het overzicht van de wedstrijden op een bepaalde dag van alle competities">
-<img src="images/overzicht_competitie.PNG" width="375px" alt="Het overzicht van de wedstrijden op een bepaalde dag van 1 competitie">
+<img src="images/overzicht.PNG" width="375px" alt="Het overzicht van de wedstrijden op een bepaalde dag van alle competities.">
+<img src="images/overzicht_competitie.PNG" width="375px" alt="Het overzicht van de wedstrijden op een bepaalde dag van 1 competitie.">
 
 **Screenshot(s) van de tweede pagina (small screen) wedstrijdpagina:**
+**Wedstrijd**
+<img src="images/wedstrijd.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is.">
+<img src="images/wedstrijd1.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, deel 2.">
+<img src="images/wedstrijd2.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, deel 3.">
+**Opstelling**
+<img src="images/wedstrijd_opst.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de opstellingen en de spelers te zien.">
+<img src="images/wedstrijd_opst1.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de opstellingen en de spelers te zien, deel 2.">
+**Onderling resultaat**
+<img src="images/wedstrijd_his1.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de onderlinge ressultaten te zien.">
+<img src="images/wedstrijd_his2.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de onderlinge ressultaten te zien, deel 2.">
 
-<img src="images/wedstrijd.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is">
+**Voor de wedstrijd**
 <img src="images/wedstrijd_leeg.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die gespeeld moet worden">
