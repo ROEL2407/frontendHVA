@@ -62,11 +62,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Breakdownschets (week 1)
 
-**Breakdownschets voor de hele pagina**
-<img src="images/readme/breakdown/break_pagina.png" width="375px" alt="De breakdownschets van de overzichtspagina van de wedstrijden op een dag.">
+**Breakdownschets voor de hele pagina**<br />
+<img src="images/break_pagina.png" width="375px" alt="De breakdownschets van de overzichtspagina van de wedstrijden op een dag.">
 
-**Breakdownschets gedetailleerd op meerdere sections**
-<img src="images/readme/breakdown/break_detail.png" width="375px" alt="De breakdownschets van een deel van de overzichtspagina van de wedstrijden op een dag.">
+**Breakdownschets gedetailleerd op meerdere sections**<br />
+<img src="images/break_detail.png" width="375px" alt="De breakdownschets van een deel van de overzichtspagina van de wedstrijden op een dag.">
 
 
 
@@ -81,20 +81,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen) overzichtspagina:**
 
-<img src="images/readme/overzicht.PNG" width="375px" alt="Het overzicht van de wedstrijden op een bepaalde dag van alle competities.">
-<img src="images/readme/overzicht_competitie.PNG" width="375px" alt="Het overzicht van de wedstrijden op een bepaalde dag van 1 competitie.">
+<img src="images/overzicht.PNG" width="375px" alt="Het overzicht van de wedstrijden op een bepaalde dag van alle competities.">
+<img src="images/overzicht_competitie.PNG" width="375px" alt="Het overzicht van de wedstrijden op een bepaalde dag van 1 competitie.">
 
 **Screenshot(s) van de tweede pagina (small screen) wedstrijdpagina:**
 **Wedstrijd**
-<img src="images/readme/wedstrijd.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is."><br />
-<img src="images/readme/wedstrijd1.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, deel 2."><br />
-<img src="images/readme/wedstrijd2.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, deel 3."><br />
+<img src="images/wedstrijd.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is."><br />
+<img src="images/wedstrijd1.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, deel 2."><br />
+<img src="images/wedstrijd2.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, deel 3."><br />
 **Opstelling**<br />
-<img src="images/readme/wedstrijd_opst.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de opstellingen en de spelers te zien."><br />
-<img src="images/readme/wedstrijd_opst1.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de opstellingen en de spelers te zien, deel 2."><br />
+<img src="images/wedstrijd_opst.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de opstellingen en de spelers te zien."><br />
+<img src="images/wedstrijd_opst1.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de opstellingen en de spelers te zien, deel 2."><br />
 **Onderling resultaat**<br />
-<img src="images/readme/wedstrijd_his1.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de onderlinge ressultaten te zien."><br />
-<img src="images/readme/wedstrijd_his2.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de onderlinge ressultaten te zien, deel 2."><br />
+<img src="images/wedstrijd_his1.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de onderlinge ressultaten te zien."><br />
+<img src="images/wedstrijd_his2.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de onderlinge ressultaten te zien, deel 2."><br />
 
 **Voor de wedstrijd**<br />
-<img src="images/readme/wedstrijd_leeg.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die gespeeld moet worden">
+<img src="images/wedstrijd_leeg.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die gespeeld moet worden">
