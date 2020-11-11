@@ -1,0 +1,133 @@
+/* CSS Document */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding 0;
+    background-color: darkgrey;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    background-color: white;
+}
+
+#krant {
+    padding: 1em;
+    overflow: auto;
+    font-size: 16px;
+}
+
+#krant h2 {
+    font-family: 'Expletus Sans';
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#krant p {
+    line-height: 1.5em;
+    font-family: 'Arial';
+}
+
+#krant p::first-letter {
+    font-family: 'Expletus Sans';
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#bord {
+/* gespiekt aan het einde van de uitwerking en kwam ik niet uit*/
+    display: grid;
+    grid-auto-columns: min-content;
+
+/* had eerst hier display flex */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #001836;
+
+
+}
+
+#bord h2 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 2.5em;
+    font-weight: 100;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 0 0.5em lightblue;
+}
+
+#mag {
+/* gespiekt aan het einde van de uitwerking en kwam ik niet uit*/
+    display: grid;
+    grid-auto-columns: min-content;
+
+/* had eerst hier display flex */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e67f8a;
+}
+
+#mag h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    transform: skewY(-5deg);
+    letter-spacing: 0.1em;
+    font-size: 2.5em;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 5px 3px 0 black;
+}
+
+
+ul {
+    display: grid;
+    grid-gap: 5vw;
+}
+
+li {
+    height: 90vw;
+}
+
+@media (min-width:32em) {
+    body {
+        padding: 3vw;
+    }
+
+    ul {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3vw;
+    }
+
+    li {
+        height: 45.5vw;
+    }
+}
+
+@media (min-width:48em) {
+    body {
+        padding: 2.5vw;
+    }
+
+    ul {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2.5vw;
+    }
+
+    li {
+        height: 30vw;
+    }
+}
