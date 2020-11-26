@@ -7,27 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>NOS Sport - Voetbal - Uitslagen</title>
 
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
        <section id="left">
-        <span>hamburgermenu</span>
-        <img src="" alt="NOS Logo">
+
+        <i class="fa fa-bars" id="bar_menu" aria-hidden="true"></i>
+        <img id="logo" src="images/nos.png" alt="NOS Logo">
        </section>
         <section id="right">
             <section>
-                <span>auto</span>
+                <i class="fa fa-car" aria-hidden="true"></i>
                 <p>8 km</p>
             </section>
             <section>
-                <span>weer</span>
-                <p>11 graden</p>
+                <i class="fa fa-cloud" aria-hidden="true"></i>
+                <p>11º</p>
             </section>
+            <i class="fa fa-search" id="search" aria-hidden="true"></i>
         </section>
 
-        <section id="menu">
+        <section id="menu" class="none">
             <ul>
                 <li>Nieuws</li>
                 <li>Sport</li>
@@ -37,13 +40,17 @@
     </header>
 
     <main>
+       <section id="breadcrumb">
+           <p>NOS Voetbal</p>
+           <p>Programma &amp; uitslagen <i class="fa fa-caret-down" aria-hidden="true"></i></p>
+       </section>
         <section class="comp">
             <nav>
                 <ul>
                     <li>
                         <a href="">
-                            <img src="" alt="vandaag">
-                            <span>Vandaag</span>
+                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            <span id="vndg">Vandaag</span>
                         </a>
                     </li>
                     <li>
@@ -170,44 +177,46 @@
             </nav>
         </section>
         <section id="kalender">
-            <h1>Kalender</h1>
+            <p>Kalender</p>
             <section id="date">
-                <h2>9 november 2020</h2>
+               <i class="fa fa-angle-left" aria-hidden="true"></i>
+                <p>9 november 2020</p>
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
             </section>
         </section>
         <section id="wedstrijden">
             <ul id="competities_dag">
                 <li>
-                    <h2>Keuken Kampioen Divisie</h2>
+                    <p class="comp_titel">Keuken Kampioen Divisie</p>
                     <ul id="wedstrijd_comp_vandaag">
                         <li>
                             <p>18:45</p>
                             <p>ein</p>
-                            <img src="" alt="FC Eindhoven">
+                            <img src="images/fceind.png" alt="FC Eindhoven">
                             <p>5-1</p>
-                            <img src="" alt="FC Dordrecht">
+                            <img src="images/fcd.png" alt="FC Dordrecht">
                             <p>dor</p>
                         </li>
                         <li>
                             <p>21:00</p>
                             <p>jut</p>
-                            <img src="" alt="Jong Utrecht">
+                            <img src="images/fcu.png" alt="Jong Utrecht">
                             <p>2-0</p>
-                            <img src="" alt="Roda JC Kerkrade">
+                            <img src="images/rjc.png" alt="Roda JC Kerkrade">
                             <p>rjc</p>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <h2>The Emirates FA Cup</h2>
-                    <h3>1e ronde</h3>
+                    <p class="comp_titel">The Emirates FA Cup</p>
+                    <p id="ronde">1e ronde</p>
                     <ul id="wedstrijd_comp_vandaag">
                         <li>
                             <p>20:45</p>
                             <p>OCL*</p>
                             <img src="images/Oxford_City_F.C._logo.png" alt="Oxford City">
                             <p>2-1</p>
-                            <img src="" alt="Northampton Town">
+                            <img src="images/nrt.png" alt="Northampton Town">
                             <p>NOR</p>
                         </li>
                     </ul>
@@ -219,7 +228,7 @@
     <footer>
         <section>
                 <a href="/">
-                <img src="" alt="NOS logo">
+                <img id="logo" src="images/nos.png" alt="NOS logo">
                 </a>
                     <a href="/nieuws/">Nieuws</a>
                     <a href="/sport/">Sport</a>
