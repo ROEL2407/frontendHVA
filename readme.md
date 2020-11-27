@@ -6,8 +6,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
+1. https://stackoverflow.com/questions/25797627/why-is-font-awesome-not-working-on-my-jekyll-built-github-site
+2. https://fontawesome.com/v4.7.0/icons/
 3. -...-
 
 
@@ -39,12 +39,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
-Niets ging eigenlijk heel slecht, ik heb een paar keer ruzie gehad met de css dieniet eruit kwam zoals ik wilde of helemaal niet maar na goed kijken is dat mij gelukt.
+Niets ging eigenlijk heel slecht, ik heb een paar keer ruzie gehad met de css die niet eruit kwam zoals ik wilde of helemaal niet maar na goed kijken is dat mij gelukt.
 
 **Screenshot(s):**
 
 <img src="images/werk1.png" width="375px" alt="De eerste versie na 1 dag werken">
-
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-

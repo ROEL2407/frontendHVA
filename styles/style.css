@@ -142,25 +142,24 @@ header {
     padding: 1em 0em;
 }
 
-#date {
+date {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     border-top: 1px solid #e3e3e3;
     align-items: center;
-    padding: 1em 0em;
     font-weight: 700;
 }
 
-#date p {
+date p {
     padding: 0;
 }
 
-#date i:first-of-type {
+date i:first-of-type {
     margin-left: 10px;
 }
 
-#date i:last-of-type {
+date i:last-of-type {
     margin-right: 10px;
 }
 .comp_titel {
