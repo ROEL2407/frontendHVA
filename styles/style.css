@@ -17,6 +17,8 @@ body {
 
 .none {
     display: none;
+
+    transition: 1s;
 }
 
 i {
@@ -32,23 +34,74 @@ a {
 }
 
 header {
+    position: relative;
+}
+
+header nav {
     display: flex;
     border-bottom: 1px solid #e3e3e3;
     justify-content: space-around;
     padding: 1em 0em;
-    position: relative;
 }
 
 #left {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 14em;
+    width: 9em;
 }
 
-#left i {
-    padding: .5em;
+#burger {
+    position: relative;
+    width: 2em;
+    height: 2em;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    appearance: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+#burger span {
+    position: absolute;
+    width: 1em;
+    height: 2px;
+    background-color: black;
+    transition: .5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+#burger span:first-of-type {
+    transform: translateY(-5px);
+}
+
+#burger span:last-of-type {
+    transform: translateY(5px);
+}
+
+body.menuOpen #burger span {
+    background-color: Crimson;
+    transition: .5s ease-out;
+}
+
+body.menuOpen #burger span:first-of-type {
+    transform: translatey(0) rotate(45deg);
+}
+
+body.menuOpen #burger span:nth-of-type(2) {
+    opacity: 0;
+}
+
+body.menuOpen #burger span:last-of-type {
+    transform: translatey(0) rotate(-45deg);
+}
+
+#menu {
+    border-bottom: 1px solid #e3e3e3;
 }
 
 #logo {
@@ -63,7 +116,7 @@ header {
     min-width: 7em;
 }
 
-#right section {
+#right div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,6 +215,7 @@ date i:first-of-type {
 date i:last-of-type {
     margin-right: 10px;
 }
+
 .comp_titel {
     text-align: center;
     padding: 1em 0em;

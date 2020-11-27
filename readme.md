@@ -6,9 +6,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. https://stackoverflow.com/questions/25797627/why-is-font-awesome-not-working-on-my-jekyll-built-github-site
-2. https://fontawesome.com/v4.7.0/icons/
-3. -...-
+1. https://stackoverflow.com/questions/25797627/why-is-font-awesome-not-working-on-my-jekyll-built-github-site voor het probleem waarom de icons niet afgebeeld werden in github pages
+2. https://fontawesome.com/v4.7.0/icons/ voor de icons
+3. https://codepen.io/shooft/pen/jOMOroZ voor het hamburger menu
 
 
 
