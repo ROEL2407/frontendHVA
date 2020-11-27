@@ -39,10 +39,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
+Niets ging eigenlijk heel slecht, ik heb een paar keer ruzie gehad met de css dieniet eruit kwam zoals ik wilde of helemaal niet maar na goed kijken is dat mij gelukt.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="images/werk1.png" width="375px" alt="De eerste versie na 1 dag werken">
 
 ### Agenda voor meeting
 
