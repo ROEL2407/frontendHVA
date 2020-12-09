@@ -3,11 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Roel Komen">
+    <meta name="author" content="jouw naam">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>NOS Sport - Voetbal - Uitslagen</title>
 
-        <script type="text/javascript" src="scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -16,7 +17,7 @@
 
 <body>
     <header>
-        <nav>
+        <nav id="nav">
             <article id="left">
                 <button id="burger"><span></span><span></span><span></span></button>
                 <img id="logo" src="images/nos.png" alt="NOS Logo">
@@ -36,8 +37,8 @@
 
         <section id="menu" class="none">
             <ul>
-                <li><a href="">Nieuws</a></li>
-                <li><a href="">Sport</a></li>
+                <li><a href="">Nieuws</a><a href=""><i class="fa fa-plus" aria-hidden="true"></i></a></li>
+                <li><a href="">Sport</a><a href=""><i class="fa fa-plus" aria-hidden="true"></i></a></li>
                 <li><a href="">Uitzendingen</a></li>
             </ul>
         </section>
@@ -189,59 +190,88 @@
             </date>
         </section>
         <section id="wedstrijden">
-            <ul id="competities_dag">
-                <li>
-                    <p class="comp_titel">Keuken Kampioen Divisie</p>
-                    <ul id="wedstrijd_comp_vandaag">
-                        <li>
+            <table id="competities_dag">
+                <tbody>
+                    <tr>
+                        <th class="comp_titel">Keuken Kampioen Divisie</th>
+                    </tr>
+                    <tr>
+                        <td>
                             <p>18:45</p>
+                        </td>
+                        <td></td>
+                        <td>
                             <p>ein</p>
-                            <img src="images/fceind.png" alt="FC Eindhoven">
-                            <p>5-1</p>
-                            <img src="images/fcd.png" alt="FC Dordrecht">
+                        </td>
+                        <td><img src="images/fceind.png" alt="FC Eindhoven"></td>
+                        <td>
+                            <p>5 - 1</p>
+                        </td>
+                        <td><img src="images/fcd.png" alt="FC Dordrecht"></td>
+                        <td>
                             <p>dor</p>
-                        </li>
-                        <li>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
                             <p>21:00</p>
+                        </td>
+                        <td></td>
+                        <td>
                             <p>jut</p>
-                            <img src="images/fcu.png" alt="Jong Utrecht">
-                            <p>2-0</p>
-                            <img src="images/rjc.png" alt="Roda JC Kerkrade">
+                        </td>
+                        <td><img src="images/fcu.png" alt="Jong Utrecht"></td>
+                        <td>
+                            <p>2 - 0</p>
+                        </td>
+                        <td><img src="images/rjc.png" alt="Roda JC Kerkrade"></td>
+                        <td>
                             <p>rjc</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <p class="comp_titel">The Emirates FA Cup</p>
-                    <p id="ronde">1e ronde</p>
-                    <ul id="wedstrijd_comp_vandaag">
-                        <li>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th class="comp_titel">The Emirates FA Cup</th>
+                    </tr>
+                    <tr id="ronde">
+                        <th>1e ronde</th>
+                    </tr>
+                    <tr>
+                        <td>
                             <p>20:45</p>
+                        </td>
+                        <td></td>
+                        <td>
                             <p>OCL*</p>
-                            <img src="images/Oxford_City_F.C._logo.png" alt="Oxford City">
-                            <p>2-1</p>
-                            <img src="images/nrt.png" alt="Northampton Town">
+                        </td>
+                        <td><img src="images/Oxford_City_F.C._logo.png" alt="Oxford City"></td>
+                        <td>
+                            <p>2 - 1</p>
+                        </td>
+                        <td><img src="images/nrt.png" alt="Northampton Town"></td>
+                        <td>
                             <p>NOR</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-
+                        </td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
     <footer>
-        <section>
-            <a href="/">
-                <img id="logo" src="images/nos.png" alt="NOS logo">
-            </a>
+        <a href="/index.html">
+            <img id="logo" src="images/nos.png" alt="NOS logo">
+        </a>
+        <section class="not_mob none">
             <a href="/nieuws/">Nieuws</a>
             <a href="/sport/">Sport</a>
             <a href="/uitzendingen/">Uitzendingen</a>
             <a href="/teletekst">Teletekst</a>
         </section>
 
-        <section class="footer__column">
-            <h3 class="footer__title">Info</h3>
+        <section id="footer_column">
+            <h3 id="footer_title" class="none">Info</h3>
             <a href="https://over.nos.nl/">Over de NOS</a>
             <a href="https://www.werkenbijdenos.nl/">Werken bij de NOS</a>
             <a href="https://over.nos.nl/uw-reacties">Contact</a>
@@ -254,7 +284,7 @@
             <a href="https://over.nos.nl/organisatie/privacy/">Privacy</a>
         </section>
 
-        <section>
+        <section class="not_mob none">
             <h3>Volg de NOS</h3>
             <a href="https://twitter.com/nos/" target="_blank">
                 Twitter
@@ -277,7 +307,7 @@
         </section>
 
 
-        <section>
+        <section id="copy">
             <p>
                 <a href="">Cookie-instellingen</a>
             </p>
@@ -286,9 +316,8 @@
             </p>
         </section>
 
-        <a href="#nav" title="Terug naar boven" class="to-the-top js-scrollto" data-target="body">
-            <span class="vh">Naar boven</span>
-            <span class="icon-chevron-up icon-red"></span>
+        <a href="#nav" title="Terug naar boven" id="to-top">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
         </a>
 
     </footer>

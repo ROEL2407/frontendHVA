@@ -7,55 +7,207 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>NOS Sport - Voetbal - Uitslagen</title>
 
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <section id="left">
-            <span>hamburgermenu</span>
-            <img src="" alt="NOS Logo">
-        </section>
-        <section id="right">
-            <section>
-                <span>auto</span>
-                <p>8 km</p>
-            </section>
-            <section>
-                <span>weer</span>
-                <p>11 graden</p>
-            </section>
-        </section>
+        <nav id="nav">
+            <article id="left">
+                <button id="burger"><span></span><span></span><span></span></button>
+                <img id="logo" src="images/nos.png" alt="NOS Logo">
+            </article>
+            <article id="right">
+                <div>
+                    <i class="fa fa-car" aria-hidden="true"></i>
+                    <p>8 km</p>
+                </div>
+                <div>
+                    <i class="fa fa-cloud" aria-hidden="true"></i>
+                    <p>11º</p>
+                </div>
+                <i class="fa fa-search" id="search" aria-hidden="true"></i>
+            </article>
+        </nav>
 
-        <section id="menu">
+        <section id="menu" class="none">
             <ul>
-                <li>Nieuws</li>
-                <li>Sport</li>
-                <li>Uitzendingen</li>
+                <li><a href="">Nieuws</a><a href=""><i class="fa fa-plus" aria-hidden="true"></i></a></li>
+                <li><a href="">Sport</a><a href=""><i class="fa fa-plus" aria-hidden="true"></i></a></li>
+                <li><a href="">Uitzendingen</a></li>
             </ul>
         </section>
     </header>
 
     <main>
-        <h1>KKD</h1>
-        <section>
+        <section id="breadcrumb">
+            <p>NOS Voetbal</p>
+            <p>Programma &amp; uitslagen <i class="fa fa-caret-down" aria-hidden="true"></i></p>
+        </section>
+        <section class="comp">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            <span id="vndg">Vandaag</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/eredivisie_150x150.png" alt="eredivisie">
+                            <span>eredivisie</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/eerste-divisie/" title="eerste-divisie">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/eerste-divisie_150x150.png" alt="eerste-divisie">
+                            <span>eerste-divisie</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/knvb-beker/" title="knvb-beker">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/knvb-beker_150x150.png" alt="knvb-beker">
+                            <span>knvb-beker</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/champions-league/" title="champions-league">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/champions-league_150x150.png" alt="champions-league">
+                            <span>champions-league</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/europa-league/" title="europa-league">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/europa-league_150x150.png" alt="europa-league">
+                            <span>europa-league</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/nations-league/" title="nations-league">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/nations-league_150x150.png" alt="nations-league">
+                            <span>nations-league</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/ek-2020/" title="ek-2020">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/ek-2020_150x150.png" alt="ek-2020">
+                            <span>ek-2020</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/premier-league/" title="premier-league">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/premier-league_150x150.png" alt="premier-league">
+                            <span>premier-league</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/bundes-liga/" title="bundes-liga">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/bundes-liga_150x150.png" alt="bundes-liga">
+                            <span>bundes-liga</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/laliga/" title="laliga">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/laliga_150x150.png" alt="laliga">
+                            <span>laliga</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/serie-a/" title="serie-a">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/serie-a_150x150.png" alt="serie-a">
+                            <span>serie-a</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/jupiler-pro-league/" title="jupiler-pro-league">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/jupiler-pro-league_150x150.png" alt="jupiler-pro-league">
+                            <span>jupiler-pro-league</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/ligue-1/" title="ligue-1">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/ligue-1_150x150.png" alt="ligue-1">
+                            <span>ligue-1</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/fa-cup/" title="fa-cup">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/fa-cup_150x150.png" alt="fa-cup">
+                            <span>fa-cup</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/league-cup/" title="league-cup">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/league-cup_150x150.png" alt="league-cup">
+                            <span>league-cup</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/dfb-pokal/" title="dfb-pokal">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/dfb-pokal_150x150.png" alt="dfb-pokal">
+                            <span>dfb-pokal</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/copa-del-rey/" title="copa-del-rey">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/copa-del-rey_150x150.png" alt="copa-del-rey">
+                            <span>copa-del-rey</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/coppa-italia/" title="coppa-italia">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/coppa-italia_150x150.png" alt="coppa-italia">
+                            <span>coppa-italia</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/kbvb-beker/" title="kbvb-beker">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/kbvb-beker_150x150.png" alt="kbvb-beker">
+                            <span>kbvb-beker</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/sport/voetbal/uitslagen/coupe-de-france/" title="coupe-de-france">
+                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/coupe-de-france_150x150.png" alt="coupe-de-france">
+                            <span>coupe-de-france</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section id="back">
+            <a href="/index.html">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </a>
+            <p>KKD</p>
+        </section>
+        <section id="lil_info">
             <p>maa 9 nov 20</p>
             <p>Sportcomplex Zoudenbalch, Utrecht</p>
         </section>
-        <section>
-            <section>
-                <img src="" alt="jong utrecht">
-                <p>Jong FC Utrecht</p>
-            </section>
-            <p>2-0</p>
-            <section>
-                <img src="" alt="Rode JC">
-                <p>Roda JC Kerkrade</p>
-            </section>
+        <section id="score">
+            <ul>
+                <li><img src="images/fcu.png" alt="jong utrecht"></li>
+                <li>
+                    <p>Jong FC Utrecht</p>
+                </li>
+            </ul>
+            <p id="result">2 - 0</p>
+            <ul>
+                <li><img src="images/rjc.png" alt="Rode JC"></li>
+                <li>
+                    <p>Roda JC Kerkrade</p>
+                </li>
+            </ul>
         </section>
 
         <section id="buttons">
-            <button id="opstelling_btn">Opstelling</button>
+            <button id="opstelling_btn" class="not-selected">Opstelling</button>
             <button id="wedstrijd_btn">Wedstrijd</button>
         </section>
 
@@ -351,67 +503,70 @@
                 </section>
             </section>
         </section>
-        <section id="wed_info">
-            <section id="top_info">
+        <section id="wed-info">
+            <section id="top-info">
                 <p><span>Scheidsrechter:</span> Jesse Rozendaal</p>
                 <p><span>Toeschouwers:</span></p>
             </section>
-            <img src="images/tijdlijn.png" alt="De tijdlijn van de westrijd">
-            <section id="tijdlijn_tekst">
-                <ul>
-                    <li>
-                        <p>43'</p>
-                        <p>Boussaid</p>
-                        <p>1-0</p>
-                    </li>
-                    <li>
-                        <p>80'</p>
-                        <p>Pieters</p>
-                        <p>2-0</p>
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <h2>Wedstrijdstatistieken</h2>
-                <section>
-                    <ul>
-                        <li>
-                            <p>Gele kaarten</p>
-                            <section>
-                                <p>3</p>
-                                <img src="images/kaarten.png" alt="Gele kaarten statistiek">
-                                <p>1</p>
-                            </section>
-                        </li>
-                        <li>
-                            <p>Rode kaarten</p>
-                            <section>
-                                <p>0</p>
-                                <img src="" alt="Rode kaarten statistiek" class="none">
-                                <p>0</p>
-                            </section>
-                        </li>
-                    </ul>
-                </section>
-                <section>
-
-                </section>
-            </section>
+            <img src="images/tijdlijn.png" alt="De tijdlijn van de westrijd" id="timeline">
+            <table id="tijdlijn">
+                <tbody>
+                    <tr>
+                        <td>43'</td>
+                        <td>Boussaid</td> <!-- een cel voor als het thuis team scoort, deze kan dus leeg zijn -->
+                        <td>1-0</td>
+                        <td></td> <!-- een cel voor als het bezoekende team scoort, deze kan dus leeg zijn -->
+                    </tr>
+                    <tr>
+                        <td>80'</td>
+                        <td>Pieters</td> <!-- een cel voor als het thuia team scoort, deze kan dus leeg zijn -->
+                        <td>2-0</td>
+                        <td></td> <!-- een cel voor als het bezoekende team scoort, deze kan dus leeg zijn -->
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="wed-stats">
+            <h2>Wedstrijdstatistieken</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <th colspan="4">Gele kaarten</th>
+                    </tr>
+                    <tr>
+                        <td colspan="1">3</td>
+                        <td colspan="2">
+                            <img src="images/kaarten.png" alt="Gele kaarten statistiek" class="stats">
+                        </td>
+                        <td colspan="1">1</td>
+                    </tr>
+                    <tr>
+                        <th colspan="4">Rode kaarten</th>
+                    </tr>
+                    <tr>
+                        <td colspan="1">0</td>
+                        <td colspan="2">
+                            <img src="images/kaarten.png" alt="Rode kaarten statistiek" class="stats opacity">
+                        </td>
+                        <td colspan="1">0</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
     <footer>
-        <section>
-            <a href="/">
-                <img src="" alt="NOS logo">
-            </a>
+        <a href="/index.html">
+            <img id="logo" src="images/nos.png" alt="NOS logo">
+        </a>
+        <section class="not_mob none">
             <a href="/nieuws/">Nieuws</a>
             <a href="/sport/">Sport</a>
             <a href="/uitzendingen/">Uitzendingen</a>
             <a href="/teletekst">Teletekst</a>
         </section>
 
-        <section class="footer__column">
-            <h3 class="footer__title">Info</h3>
+        <section id="footer_column">
+            <h3 id="footer_title" class="none">Info</h3>
             <a href="https://over.nos.nl/">Over de NOS</a>
             <a href="https://www.werkenbijdenos.nl/">Werken bij de NOS</a>
             <a href="https://over.nos.nl/uw-reacties">Contact</a>
@@ -424,7 +579,7 @@
             <a href="https://over.nos.nl/organisatie/privacy/">Privacy</a>
         </section>
 
-        <section>
+        <section class="not_mob none">
             <h3>Volg de NOS</h3>
             <a href="https://twitter.com/nos/" target="_blank">
                 Twitter
@@ -447,7 +602,7 @@
         </section>
 
 
-        <section>
+        <section id="copy">
             <p>
                 <a href="">Cookie-instellingen</a>
             </p>
@@ -456,9 +611,8 @@
             </p>
         </section>
 
-        <a href="#nav" title="Terug naar boven" class="to-the-top js-scrollto" data-target="body">
-            <span class="vh">Naar boven</span>
-            <span class="icon-chevron-up icon-red"></span>
+        <a href="#nav" title="Terug naar boven" id="to-top">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
         </a>
 
     </footer>

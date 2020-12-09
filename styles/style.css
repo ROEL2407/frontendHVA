@@ -7,12 +7,27 @@
     padding: 0;
 }
 
+table,
+tr,
+tbody,
+th,
+td {
+    width: 100%;
+}
+
+
+button:focus {
+    border: none;
+    outline-color: transparent;
+}
+
 body {
     background-color: #ffffff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 14px;
+    font-size: 16px;
+    color: #333;
 }
 
 .none {
@@ -22,7 +37,7 @@ body {
 }
 
 i {
-    color: #333;
+    color: #999;
 }
 
 ul {
@@ -31,6 +46,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: #333;
 }
 
 header {
@@ -41,7 +57,6 @@ header nav {
     display: flex;
     border-bottom: 1px solid #e3e3e3;
     justify-content: space-around;
-    padding: 1em 0em;
 }
 
 #left {
@@ -50,6 +65,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     width: 9em;
+    padding: 1em 0em;
 }
 
 #burger {
@@ -67,11 +83,16 @@ header nav {
     background-color: transparent;
 }
 
+#burger:active {
+    border: none;
+}
+
+
 #burger span {
     position: absolute;
     width: 1em;
     height: 2px;
-    background-color: black;
+    background-color: #333;
     transition: .5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
 }
 
@@ -114,13 +135,15 @@ body.menuOpen #burger span:last-of-type {
     justify-content: space-between;
     align-items: center;
     min-width: 7em;
+    padding: .5em 0em;
 }
 
 #right div {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 #bar_menu {
@@ -132,7 +155,32 @@ body.menuOpen #burger span:last-of-type {
 #search {
     font-size: 1.5em;
     align-self: center;
+    transform: scaleX(-1); /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_image  om het icoon te spiegelen*/
 
+}
+
+#menu {
+    font-size: 18px;
+}
+
+#menu ul li {
+    position: relative;
+    height: 5vh;
+    width: 100%;
+    padding: 2em 0em 2em 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #e3e3e3;
+}
+
+#menu ul li:first-of-type {
+    border: none;
+}
+
+#menu ul li a {
+    display: block;
+    padding: 0em 1em;
 }
 
 #breadcrumb {
@@ -140,7 +188,13 @@ body.menuOpen #burger span:last-of-type {
     flex-direction: row;
     font-weight: 700;
     justify-content: space-between;
-    padding: 1.5em 1em;
+    padding: 1.5em .5em;
+    font-size: 16px;
+}
+
+#breadcrumb i {
+    margin-left: .25em;
+    color: black;
 }
 
 .comp {
@@ -159,11 +213,11 @@ body.menuOpen #burger span:last-of-type {
 
 #vndg {
     display: inline-block;
-    color: #333;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 10px;
     font-weight: 700;
+    margin-top: .25em;
 }
 
 .comp a {
@@ -189,6 +243,7 @@ body.menuOpen #burger span:last-of-type {
     flex-direction: column;
     text-align: center;
     border-top: 1px solid #e3e3e3;
+    font-size: 18px;
 }
 
 #kalender p {
@@ -216,31 +271,227 @@ date i:last-of-type {
     margin-right: 10px;
 }
 
+#competities_dag {
+    border-bottom: 1px solid #e3e3e3;
+}
+
 .comp_titel {
     text-align: center;
     padding: 1em 0em;
     font-weight: 700;
-    border-top: 1px solid #e3e3e3;
+    font-size: 18px;
 }
 
-#wedstrijd_comp_vandaag li {
+#competities_dag tr {
+    border-top: 1px solid #e3e3e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#competities_dag tr td {
+    padding: .5em 0em;
+}
+
+#competities_dag tr td:first-of-type {
+    padding-left: .75em;
+    color: #999;
+}
+
+#competities_dag tr p {
+    text-transform: uppercase;
+}
+
+#competities_dag tr img {
+    width: 24px;
+    height: 24px;
+}
+
+#competities_dag #ronde {
+    text-transform: uppercase;
+    font-weight: 700;
+    justify-content: flex-start;
+
+}
+
+#competities_dag #ronde th {
+    width: auto;
+    padding: .5em 0em;
+
+}
+
+footer {
+    margin: 3em 0em;
+    padding-left: 1em;
+    position: relative;
+
+}
+
+#footer_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1em 0em;
+}
+
+footer a {
+    color: #333;
+}
+
+#copy,
+#copy a {
+    color: #999;
+}
+
+#to-top {
+    position: absolute;
+    top: 0em;
+    right: 1.5em;
+}
+
+#to-top i {
+
+    font-size: 25px;
+    color: #ee3224;
+}
+
+
+/* wedstrijd.html */
+#back {
+    position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     border-top: 1px solid #e3e3e3;
 }
 
-#wedstrijd_comp_vandaag p {
+#back p {
+    padding: 1em 0em;
+    font-size: 18px;
+    text-align: center;
+}
+
+#back a{
+    position: absolute;
+    left: .5em;
+    font-size: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#back i{
+    color: black;
+}
+
+#lil_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #e3e3e3;
+    padding: 1em 0em;
+}
+
+#score {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#score #result {
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+}
+
+#score ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+}
+
+#score img {
+    width: 65px;
+    margin-bottom: .5em;
+}
+
+#score ul p{
     text-transform: uppercase;
-    border-top: 1px solid #e3e3e3;
+    text-align: center;
 }
 
-#wedstrijd_comp_vandaag img {
-    width: 50px;
+#buttons {
+    display: flex;
+    flex-direction: row;
 }
 
-#ronde {
-    text-transform: uppercase;
-    border-top: 1px solid #e3e3e3;
+#buttons button {
+    width: 50%;
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    padding: 1em;
+    font-size: 16px;
+    color: #333;
+}
 
+#buttons button:last-of-type {
+    border-left: 0px;
+}
+
+#buttons .not-selected {
+    background-color: #f4f4f4;
+}
+
+#top-info {
+    padding: 1em;
+    text-align: center;
+}
+
+#top-info span{
+    font-weight: 700;
+}
+
+#timeline {
+    width: 100%;
+}
+
+#tijdlijn tr {
+    border-bottom: 1px solid #e3e3e3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em 0em;
+}
+
+#tijdlijn tr td:first-of-type {
+    padding-left: 1em;
+}
+
+#wed-stats h2 {
+    text-align: center;
+    padding: 1em 0em;
+}
+
+#wed-stats h2 {
+    text-align: center;
+    padding: 1em 0em;
+}
+
+#wed-stats tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-bet;
+    align-items: center;
+    text-align: center;
+}
+
+.opacity {
+    opacity: 0;
 }
