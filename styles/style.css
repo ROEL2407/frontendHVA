@@ -482,6 +482,7 @@ footer a {
 #wed-stats h2 {
     text-align: center;
     padding: 1em 0em;
+    font-size: 18px;
 }
 
 #wed-stats tr {
@@ -490,6 +491,12 @@ footer a {
     justify-content: space-bet;
     align-items: center;
     text-align: center;
+}
+
+#wed-stats th {
+    border-top: 1px solid #e3e3e3;
+    padding-top: .5em;
+    font-weight: 100;
 }
 
 .opacity {
