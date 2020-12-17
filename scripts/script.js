@@ -5,8 +5,8 @@ var menu = document.querySelector("#menu");
 deButton.addEventListener("click", openMenu);
 
 function openMenu() {
-  document.body.classList.toggle("menuOpen");
-  menu.classList.toggle("none");
+    document.body.classList.toggle("menuOpen");
+    menu.classList.toggle("invisible");
 }
 
 
@@ -18,17 +18,25 @@ var wedstrijd_info = document.getElementsByClassName(".wedstrijd");
 Opst.addEventListener("click", openOpst);
 
 function openOpst() {
-  opstelling_info.classList.remove("none");
-  wedstrijd_info.classList.Add("none");
-  Opst.classList.remove("not-selected");
-  game.classList.add("not-selected");
+    opstelling_info.classList.remove("invisible");
+    wedstrijd_info.classList.Add("invisible");
+    Opst.classList.remove("not-selected");
+    game.classList.add("not-selected");
 }
 
 game.addEventListener("click", openWed);
 
 function openWed() {
-  opstelling_info.classList.add("none");
-  wedstrijd_info.classList.remove("none");
-  Opst.classList.add("not-selected");
-  game.classList.remove("not-selected");
+    opstelling_info.classList.add("invisible");
+    wedstrijd_info.classList.remove("invisible");
+    Opst.classList.add("not-selected");
+    game.classList.remove("not-selected");
+}
+
+var tableRow = document.querySelector("#JSlink");
+
+tableRow.addEventListener("click", linkToPage);
+
+function linkToPage() {
+  location.replace("wedstrijd.html")
 }
