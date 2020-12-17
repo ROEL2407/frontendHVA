@@ -24,13 +24,21 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+-dit ging goed & dit was lastig-
+Na vragen te hebben gesteld op het frontend kanaal voor mijn doorlink probleem ben ik op zoek gegaan naar een javascript manier. Uiteindelijk heb ik het werken gekregen maar nog niet zoals ik zou willen. Hier zal ik dan ook nog naar vragen.
 
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+-dit ging goed & dit was lastig-
+voor dit voortgangsmoment had ik een aantal vragen en probleempjes samengevat. dit waren:
+
+Moet ik alles overnemen aangezien de pagina door een api veranderd wordt?
+Moet ik de diagrammen overnemen in html en css?
+Een tr tag kan niet in een a tag vallen, Hoe moet ik dit oplossen?
+
+Het doorlinken was voor mij een heel erg struikelblok aangezien ik dit perfect wilde doen en het niet zo eruit kwam als ik zou willen.
 
 
 
