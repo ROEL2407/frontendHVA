@@ -182,6 +182,11 @@ body.menuOpen #burger span:last-of-type {
     padding: 0 1em;
 }
 
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 #breadcrumb {
     display: flex;
     flex-direction: row;
@@ -448,6 +453,7 @@ footer a {
     padding: 1em;
     font-size: 16px;
     color: #333;
+    transition: 1s;
 }
 
 #buttons button:last-of-type {
@@ -455,7 +461,9 @@ footer a {
 }
 
 #buttons .not-selected {
-    background-color: #f4f4f4;
+    background-color: #b5b0b0;
+    border: 1px solid #e3e3e3;
+    color: #000;
 }
 
 #top-info {
@@ -467,8 +475,10 @@ footer a {
     font-weight: 700;
 }
 
-#timeline {
+#wed-info img {
     width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 #tijdlijn tr {

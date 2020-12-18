@@ -16,7 +16,10 @@ var opstelling_info = document.querySelector("#opstelling");
 var wedstrijd_info = document.querySelector("#wed-info");
 var wedstrijd_stats = document.querySelector("#wed-stats");
 
+
+if (game){
 Opst.addEventListener("click", openOpst);
+}
 
 function openOpst() {
     opstelling_info.classList.remove("invisible");
@@ -26,7 +29,9 @@ function openOpst() {
     game.classList.add("not-selected");
 }
 
+if (game){
 game.addEventListener("click", openWed);
+}
 
 function openWed() {
     opstelling_info.classList.add("invisible");
@@ -36,8 +41,10 @@ function openWed() {
     game.classList.remove("not-selected");
 }
 
-var tableRow = document.querySelector("#JSlink");
+var tableRows = document.querySelectorAll(".JSlink");
+tableRows.forEach(function tableRowEventListeners(tableRow) {
 tableRow.addEventListener("click", linkToPage);
+})
 
 function linkToPage() {
   window.location.href = "wedstrijd.html";
