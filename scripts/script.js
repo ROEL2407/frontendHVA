@@ -37,10 +37,8 @@ function openWed() {
 }
 
 var tableRow = document.querySelector("#JSlink");
-/*
 tableRow.addEventListener("click", linkToPage);
 
 function linkToPage() {
-  location.replace("wedstrijd.html")
+  window.location.href = "wedstrijd.html";
 }
-*/
