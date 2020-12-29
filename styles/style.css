@@ -15,12 +15,6 @@ td {
     width: 100%;
 }
 
-
-button:focus {
-    border: none;
-    outline-color: transparent;
-}
-
 body {
     background-color: #ffffff;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -79,6 +73,7 @@ header nav {
     justify-content: center;
     align-items: center;
     background-color: transparent;
+    cursor: pointer;
 }
 
 #burger:active {
@@ -309,7 +304,7 @@ date i:last-of-type {
 }
 
 #competities_dag tr td:last-of-type a {
-    padding: .5em 0;
+    padding: .5em;
 }
 
 #competities_dag tr p {
@@ -479,6 +474,7 @@ footer a {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    display: block;
 }
 
 #tijdlijn tr {
@@ -507,9 +503,13 @@ footer a {
 #wed-stats tr {
     display: flex;
     flex-direction: row;
-    justify-content: space-bet;
     align-items: center;
     text-align: center;
+
+}
+
+#wed-stats tr:nth-child(even) {
+    margin-bottom: .5em;
 }
 
 #wed-stats th {
