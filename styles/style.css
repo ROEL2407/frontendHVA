@@ -161,7 +161,7 @@ body.menuOpen #burger span:last-of-type {
     position: relative;
     height: 5vh;
     width: 100%;
-    padding: 2em 0 2em 0.5em;
+    padding: 2em 0em 2em 0.5em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -174,12 +174,12 @@ body.menuOpen #burger span:last-of-type {
 
 #menu ul li a {
     display: block;
-    padding: 0 1em;
+    padding: 0em 1em;
 }
 
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0em auto;
 }
 
 #breadcrumb {
@@ -443,7 +443,7 @@ footer a {
 
 #buttons button {
     width: 50%;
-    border: 1px solid #e3e3e3;
+    border: 1px solid #000;
     background-color: #fff;
     padding: 1em;
     font-size: 16px;
@@ -457,7 +457,6 @@ footer a {
 
 #buttons .not-selected {
     background-color: #b5b0b0;
-    border: 1px solid #e3e3e3;
     color: #000;
 }
 
@@ -473,7 +472,7 @@ footer a {
 #wed-info img {
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0em auto;
     display: block;
 }
 
@@ -520,6 +519,144 @@ footer a {
 
 .opacity {
     opacity: 0;
+}
+
+#opstelling_wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.badge_wrapper img {
+    width: 65px;
+    height: 65px;
+}
+
+#home,
+#away,
+#bank_home {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+
+#home,
+#bank_home {
+    border-right: 1px solid #e3e3e3;
+    margin-left: 1em;
+}
+
+#away,
+#bank_away {
+    text-align: right;
+    margin-right: 1em;
+}
+
+#home .badge_wrapper,
+#away .badge_wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: .5em;
+}
+
+#away .badge_wrapper {
+    justify-content: flex-end;
+}
+
+#home .badge_wrapper p,
+#away .badge_wrapper p {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#home ul li,
+#away ul li,
+#bank_home ul li,
+#bank_away ul li {
+    display: flex;
+    flex-direction: row;
+    margin: 1em 0em;
+}
+
+#home ul li p:first-of-type,
+#away ul li p:first-of-type,
+#bank_home ul li p:first-of-type,
+#bank_away ul li p:first-of-type {
+    color: #b5b0b0;
+}
+
+#away ul li,
+#bank_away ul li {
+    flex-direction: row-reverse;
+}
+
+#away ul li p:first-of-type,
+#bank_away ul li p:first-of-type {
+    margin-left: .5em;
+}
+
+#home ul li p:first-of-type,
+#bank_home ul li p:first-of-type {
+    margin-right: .5em;
+}
+
+.wissel {
+    justify-content: space-between;
+}
+
+.wissel section {
+    display: flex;
+    flex-direction: row;
+}
+
+#away .wisselspelers section,
+#bank_away .wisselspelers section {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.wissel .wisselspelers {
+    flex-direction: column;
+}
+
+#away .wissel section:last-of-type,
+#bank_away .wissel section:last-of-type {
+    flex-direction: row-reverse;
+    align-self: flex-end;
+}
+
+#home .wissel section:last-of-type .wisseltijd,
+#bank_home .wissel section:last-of-type .wisseltijd,
+#away .wissel section:last-of-type .wisseltijd,
+#bank_away .wissel section:last-of-type .wisseltijd {
+    color: #333;
+}
+
+.wissel img {
+    height: 28px;
+}
+
+#captain {
+    background-color: red;
+    padding: 0em .25em;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#bank_btn {
+    width: 100%;
+    height: 2em;
+    border: 1px solid #e3e3e3;
+    font-weight: 700;
+}
+
+#bank_wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.BankOpen {
+    display: flex;
+    flex-direction: row;
 }
 
 /* Tablet ----------- */

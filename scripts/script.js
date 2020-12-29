@@ -49,3 +49,24 @@ tableRow.addEventListener("click", linkToPage);
 function linkToPage() {
   window.location.href = "wedstrijd.html";
 }
+
+var bank_button = document.querySelector("#bank_btn");
+var bank = document.querySelector("#bank");
+var wedspelers_home = document.querySelector(".opst_ul_home");
+var wedspelers_away = document.querySelector(".opst_ul_away");
+var btn_txt_bank = document.querySelector("#bank_span");
+var btn_txt_opst = document.querySelector("#opst_span");
+
+if (game){
+bank_button.addEventListener("click", BankToggle);
+}
+
+function BankToggle() {
+    wedspelers_home.classList.toggle("invisible");
+    wedspelers_away.classList.toggle("invisible");
+    bank.classList.toggle("invisible");
+    bank.classList.toggle("BankOpen");
+    btn_txt_bank.classList.toggle("invisible");
+    btn_txt_opst.classList.toggle("invisible");
+
+}
