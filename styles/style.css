@@ -52,6 +52,10 @@ header nav {
 }
 
 #nav section:first-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 9em;
     padding: 1em 0;
 }
@@ -137,6 +141,10 @@ body.menuOpen #burger span:last-of-type {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+#nav section:nth-of-type(4) div.only_desktop {
+    display: none;
 }
 
 #bar_menu {
@@ -862,122 +870,127 @@ footer a {
         width: 1.75em;
     }
 
-    #nav section:nth-of-type(5){
+    #nav section:nth-of-type(5) {
         display: flex;
         align-items: center;
-    }}
-
-    #nav section:nth-of-type(5) img {
-        width: 4em;
-        border: 1px solid #999;
-        padding: .5em;
-        border-radius: .5em;
     }
+}
 
-    #widget {
-        width: 19%;
-    }
+#nav section:nth-of-type(5) img {
+    width: 4em;
+    border: 1px solid #999;
+    padding: .5em;
+    border-radius: .5em;
+}
 
-    #info_wrapper {
-        width: 79%;
-    }
+#widget {
+    width: 19%;
+}
 
-    .not_desktop {
-        display: none;
-    }
+#info_wrapper {
+    width: 79%;
+}
 
-    #widget ul li:hover {
-        border-left: 3px solid #E61E14;
-    }
+.not_desktop {
+    display: none;
+}
 
-    #widget ul li:hover p {
-        color: #E61E14;
-    }
+#widget ul li:hover {
+    border-left: 3px solid #E61E14;
+}
 
-    #competities_dag tr td:nth-of-type(5) {
-        font-weight: 700;
-        color: #999;
-    }
+#widget ul li:hover p {
+    color: #E61E14;
+}
 
-    #competities_dag tr td:nth-of-type(5):hover {
-        color: #E61E14;
-    }
+#competities_dag tr td:nth-of-type(5) {
+    font-weight: 700;
+    color: #999;
+}
 
-    #competities_dag tr td:nth-of-type(2) {
-        width: 50%;
-    }
+#competities_dag tr td:nth-of-type(5):hover {
+    color: #E61E14;
+}
 
-    #competities_dag tr td:nth-of-type(3) {
-        padding-right: 3em;
-        width: 150%;
-    }
+#competities_dag tr td:nth-of-type(2) {
+    width: 50%;
+}
 
-    #competities_dag tr td:nth-of-type(7) {
-        width: 150%;
-    }
+#competities_dag tr td:nth-of-type(3) {
+    padding-right: 3em;
+    width: 150%;
+}
 
-    #competities_dag tr td:nth-of-type(8) {
-        width: 50%;
-    }
+#competities_dag tr td:nth-of-type(7) {
+    width: 150%;
+}
 
-    #competities_dag .desktop_teamname {
-        display: block;
-    }
+#competities_dag tr td:nth-of-type(8) {
+    width: 50%;
+}
 
-    #competities_dag .teamname {
-        display: none;
-    }
+#competities_dag .desktop_teamname {
+    display: block;
+}
 
-    span.only_desktop {
-        display: inline-block;
-    }
+#competities_dag .teamname {
+    display: none;
+}
 
-    .only_desktop {
-        display: block;
-    }
+span.only_desktop {
+    display: inline-block;
+}
 
-    .badge_wrapper section {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        margin-left: 1em;
-    }
+.only_desktop {
+    display: block;
+}
 
-    #away .badge_wrapper section {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: center;
-        margin-right: 1em;
-        margin-left: 0em;
-    }
+#nav section div.only_desktop {
+    display block;
+}
+
+.badge_wrapper section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 1em;
+}
+
+#away .badge_wrapper section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 1em;
+    margin-left: 0em;
+}
 
 
 
-    #home .badge_wrapper p:last-of-type,
-    #away .badge_wrapper p:last-of-type {
-        text-transform: initial;
-        font-weight: 400;
-        color: #999;
-        font-size: .75em;
+#home .badge_wrapper p:last-of-type,
+#away .badge_wrapper p:last-of-type {
+    text-transform: initial;
+    font-weight: 400;
+    color: #999;
+    font-size: .75em;
 
-    }
+}
 
-    #copy {
-        left: 3em;
-        right: 3em;
-    }
+#copy {
+    left: 3em;
+    right: 3em;
+}
 
-    footer {
-        justify-content: space-around;
-    }
+footer {
+    justify-content: space-around;
+}
 
-    footer section:first-of-type {
-        margin-left: 3em;
-    }
+footer section:first-of-type {
+    margin-left: 3em;
+}
 
-    footer section {
-        height: 1em;
-    }
+footer section {
+    height: 1em;
+}
 }
