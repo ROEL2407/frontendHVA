@@ -17,9 +17,23 @@
         <nav id="nav">
             <section>
                 <button id="burger"><span></span><span></span><span></span></button>
-                <img id="logo" src="images/nos.png" alt="NOS Logo">
+                <img class="logo" src="images/nos.png" alt="NOS Logo">
+            </section>
+            <section id="header_menu" class="not_mob ">
+                <ul>
+                    <li><a href="#">Nieuws</a></li>
+                    <li><a href="#">Sport</a></li>
+                    <li><a href="#">Uitzendingen</a></li>
+                </ul>
+            </section>
+            <section class="not_mob ">
+                <a href="#"><img src="images/TeleTekst.png" alt="TeleTekst logo"></a>
             </section>
             <section>
+                <div class="only_desktop">
+                    <img src="images/aex.png" alt="AEX logo">
+                    <p>AEX</p>
+                </div>
                 <div>
                     <i class="fa fa-car" aria-hidden="true"></i>
                     <p>8 km</p>
@@ -29,6 +43,9 @@
                     <p>11º</p>
                 </div>
                 <i class="fa fa-search" id="search" aria-hidden="true"></i>
+            </section>
+            <section class="only_desktop">
+                <img src="images/npo-start.svg" alt="Npo start logo">
             </section>
         </nav>
 
@@ -46,621 +63,681 @@
             <p>NOS Voetbal</p>
             <p>Programma &amp; uitslagen <i class="fa fa-caret-down" aria-hidden="true"></i></p>
         </section>
-        <section class="comp">
-            <nav>
+        <section id="main_wrapper">
+            <section id="widget" class="not_mob">
                 <ul>
                     <li>
-                        <a href="#">
-                            <i class="fa fa-calendar-o" aria-hidden="true"></i>
-                            <span id="vndg">Vandaag</span>
-                        </a>
+                        <p>Overzicht</p>
                     </li>
                     <li>
-                        <a href="#">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/eredivisie_150x150.png" alt="eredivisie">
-                            <span>eredivisie</span>
-                        </a>
+                        <p>Voetbal</p>
+                    </li>
+                    <li class="subitem">
+                        <p>Video's</p>
+                    </li>
+                    <li class="subitem">
+                        <p>Archief</p>
+                    </li>
+                    <li class="subitem">
+                        <p>Programma & uitslagen</p>
                     </li>
                     <li>
-                        <a href="#" title="eerste-divisie">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/eerste-divisie_150x150.png" alt="eerste-divisie">
-                            <span>eerste-divisie</span>
-                        </a>
+                        <p>Formule 1</p>
                     </li>
                     <li>
-                        <a href="#" title="knvb-beker">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/knvb-beker_150x150.png" alt="knvb-beker">
-                            <span>knvb-beker</span>
-                        </a>
+                        <p>Wielrennen</p>
                     </li>
                     <li>
-                        <a href="#" title="champions-league">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/champions-league_150x150.png" alt="champions-league">
-                            <span>champions-league</span>
-                        </a>
+                        <p>Schaatsen</p>
                     </li>
                     <li>
-                        <a href="#" title="europa-league">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/europa-league_150x150.png" alt="europa-league">
-                            <span>europa-league</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="nations-league">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/nations-league_150x150.png" alt="nations-league">
-                            <span>nations-league</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="ek-2020">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/ek-2020_150x150.png" alt="ek-2020">
-                            <span>ek-2020</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="premier-league">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/premier-league_150x150.png" alt="premier-league">
-                            <span>premier-league</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="bundes-liga">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/bundes-liga_150x150.png" alt="bundes-liga">
-                            <span>bundes-liga</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="laliga">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/laliga_150x150.png" alt="laliga">
-                            <span>laliga</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="serie-a">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/serie-a_150x150.png" alt="serie-a">
-                            <span>serie-a</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="jupiler-pro-league">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/jupiler-pro-league_150x150.png" alt="jupiler-pro-league">
-                            <span>jupiler-pro-league</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="ligue-1">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/ligue-1_150x150.png" alt="ligue-1">
-                            <span>ligue-1</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="fa-cup">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/fa-cup_150x150.png" alt="fa-cup">
-                            <span>fa-cup</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="league-cup">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/league-cup_150x150.png" alt="league-cup">
-                            <span>league-cup</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="dfb-pokal">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/dfb-pokal_150x150.png" alt="dfb-pokal">
-                            <span>dfb-pokal</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="copa-del-rey">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/copa-del-rey_150x150.png" alt="copa-del-rey">
-                            <span>copa-del-rey</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="coppa-italia">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/coppa-italia_150x150.png" alt="coppa-italia">
-                            <span>coppa-italia</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="kbvb-beker">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/kbvb-beker_150x150.png" alt="kbvb-beker">
-                            <span>kbvb-beker</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="coupe-de-france">
-                            <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/coupe-de-france_150x150.png" alt="coupe-de-france">
-                            <span>coupe-de-france</span>
-                        </a>
+                        <p>Tennis</p>
                     </li>
                 </ul>
-            </nav>
-        </section>
-        <section id="back">
-            <a href="index.html">
-                <i class="fa fa-angle-left" aria-hidden="true"></i>
-            </a>
-            <p>KKD</p>
-        </section>
-        <section id="lil_info">
-            <p>maa 9 nov 20</p>
-            <p>Sportcomplex Zoudenbalch, Utrecht</p>
-        </section>
-        <section id="score">
-            <ul>
-                <li><img src="images/fcu.png" alt="jong utrecht"></li>
-                <li>
-                    <p>Jong FC Utrecht</p>
-                </li>
-            </ul>
-            <p id="result">2 - 0</p>
-            <ul>
-                <li><img src="images/rjc.png" alt="Rode JC"></li>
-                <li>
-                    <p>Roda JC Kerkrade</p>
-                </li>
-            </ul>
-        </section>
-
-        <section id="buttons">
-            <button id="opstelling_btn" class="not-selected">Opstelling</button>
-            <button id="wedstrijd_btn">Wedstrijd</button>
-        </section>
-
-        <section id="opstelling" class="invisible">
-            <img src="images/opstelling.png" alt="Opstellingen">
-            <section id="opstelling_wrapper">
-                <section id="home">
-                    <section class="badge_wrapper">
-                        <img src="images/fcu.png" alt="jong utrecht">
-                        <p>JUT</p>
-                    </section>
-                    <p>coach: Plugboer</p>
-                    <ul class="opst_ul_home">
+                <p>Alle categorieën (83)<i class="fa fa-chevron-down" aria-hidden="true"></i></p>
+            </section>
+            <section id="info_wrapper">
+                <section class="comp">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                    <span id="vndg">Vandaag</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/eredivisie_150x150.png" alt="eredivisie">
+                                    <span>eredivisie</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="eerste-divisie">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/eerste-divisie_150x150.png" alt="eerste-divisie">
+                                    <span>eerste-divisie</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="knvb-beker">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/knvb-beker_150x150.png" alt="knvb-beker">
+                                    <span>knvb-beker</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="champions-league">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/champions-league_150x150.png" alt="champions-league">
+                                    <span>champions-league</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="europa-league">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/europa-league_150x150.png" alt="europa-league">
+                                    <span>europa-league</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="nations-league">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/nations-league_150x150.png" alt="nations-league">
+                                    <span>nations-league</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="ek-2020">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/ek-2020_150x150.png" alt="ek-2020">
+                                    <span>ek-2020</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="premier-league">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/premier-league_150x150.png" alt="premier-league">
+                                    <span>premier-league</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="bundes-liga">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/bundes-liga_150x150.png" alt="bundes-liga">
+                                    <span>bundes-liga</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="laliga">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/laliga_150x150.png" alt="laliga">
+                                    <span>laliga</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="serie-a">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/serie-a_150x150.png" alt="serie-a">
+                                    <span>serie-a</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="jupiler-pro-league">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/jupiler-pro-league_150x150.png" alt="jupiler-pro-league">
+                                    <span>jupiler-pro-league</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="ligue-1">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/ligue-1_150x150.png" alt="ligue-1">
+                                    <span>ligue-1</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="fa-cup">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/fa-cup_150x150.png" alt="fa-cup">
+                                    <span>fa-cup</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="league-cup">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/league-cup_150x150.png" alt="league-cup">
+                                    <span>league-cup</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="dfb-pokal">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/dfb-pokal_150x150.png" alt="dfb-pokal">
+                                    <span>dfb-pokal</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="copa-del-rey">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/copa-del-rey_150x150.png" alt="copa-del-rey">
+                                    <span>copa-del-rey</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="coppa-italia">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/coppa-italia_150x150.png" alt="coppa-italia">
+                                    <span>coppa-italia</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="kbvb-beker">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/kbvb-beker_150x150.png" alt="kbvb-beker">
+                                    <span>kbvb-beker</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="coupe-de-france">
+                                    <img src="https://s.nos.nl/img/sport/voetbal/competities/logos/coupe-de-france_150x150.png" alt="coupe-de-france">
+                                    <span>coupe-de-france</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+                <section id="back">
+                    <a href="index.html">
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                    </a>
+                    <p>KKD</p>
+                </section>
+                <section id="lil_info">
+                    <p>maa 9 nov 20</p>
+                    <p>Sportcomplex Zoudenbalch, Utrecht</p>
+                </section>
+                <section id="score">
+                    <ul>
+                        <li><img src="images/fcu.png" alt="jong utrecht"></li>
                         <li>
-                            <p>1</p>
-                            <p>Nijhuis</p>
+                            <p>Jong FC Utrecht</p>
                         </li>
+                    </ul>
+                    <p id="result">2 - 0</p>
+                    <ul>
+                        <li><img src="images/rjc.png" alt="Rode JC"></li>
                         <li>
-                            <p>2</p>
-                            <p>Mokono</p>
-                        </li>
-                        <li class="wissel">
-                            <section class="wisselspelers">
-                                <section>
-                                    <p>5</p>
-                                    <p>Deyonge</p>
-                                </section>
-                                <section>
-                                    <p>19</p>
-                                    <p>Van der Kust</p>
-                                </section>
-                            </section>
-                            <section>
-                                <img src="images/wisselteken.png" alt="wissel">
-                                <p class="wisseltijd">62'</p>
-                            </section>
-                        </li>
-                        <li class="wissel">
-                            <section class="wisselspelers">
-                                <section>
-                                    <p>6</p>
-                                    <p>Lonwijk</p>
-                                </section>
-                                <section>
-                                    <p>23</p>
-                                    <p>Huizing</p>
-                                </section>
-                            </section>
-                            <section>
-                                <img src="images/wisselteken.png" alt="wissel">
-                                <p class="wisseltijd">71'</p>
-                            </section>
-                        </li>
-                        <li>
-                            <p>10</p>
-                            <p>Acheffay</p>
-                        </li>
-                        <li>
-                            <p>8</p>
-                            <p>Boussaid</p>
-                        </li>
-                        <li>
-                            <p>7</p>
-                            <p>Pieters</p>
-                        </li>
-                        <li>
-                            <p>9</p>
-                            <p>Hilterman <span id="captain">c</span></p>
-                        </li>
-                        <li class="wissel">
-                            <section class="wisselspelers">
-                                <section>
-                                    <p>11</p>
-                                    <p>Arzani</p>
-                                </section>
-                                <section>
-                                    <p>17</p>
-                                    <p>Mallahi</p>
-                                </section>
-                            </section>
-                            <section>
-                                <img src="images/wisselteken.png" alt="wissel">
-                                <p class="wisseltijd">86'</p>
-                            </section>
+                            <p>Roda JC Kerkrade</p>
                         </li>
                     </ul>
                 </section>
-                <section id="away">
-                    <section class="badge_wrapper">
-                        <p>rjc</p>
-                        <img src="images/rjc.png" alt="Roda JC">
-                    </section>
-                    <p>coach: Streppel</p>
-                    <ul class="opst_ul_away">
-                        <li>
-                            <p>21</p>
-                            <p>Santos</p>
-                        </li>
-                        <li>
-                            <p>2</p>
-                            <p>Marzo</p>
-                        </li>
-                        <li>
-                            <p>4</p>
-                            <p><span id="captain">c</span> Luijckx</p>
-                        </li>
-                        <li>
-                            <p>20</p>
-                            <p>Lambrix</p>
-                        </li>
-                        <li>
-                            <p>5</p>
-                            <p>Absalem</p>
-                        </li>
-                        <li class="wissel">
-                            <section class="wisselspelers">
-                                <section>
+
+                <section id="buttons">
+                    <button id="opstelling_btn" class="not-selected">Opstelling</button>
+                    <button id="wedstrijd_btn">Wedstrijd</button>
+                </section>
+
+                <section id="opstelling" class="invisible">
+                    <img id="opstellingfoto" src="images/opstelling_desktop.PNG" alt="Opstellingen">
+                    <section id="opstelling_wrapper">
+                        <section id="home">
+                            <section class="badge_wrapper">
+                                <img src="images/fcu.png" alt="Jong FC Utrecht">
+                               <section>
+                                    <p class="not_desktop">jut</p>
+                                    <p class="only_desktop">Jong FC Utrecht</p>
+                                    <p class="only_desktop">Coach: Ab Plugboer</p>
+                               </section>
+                            </section>
+                            <p class="not_desktop">Coach: Plugboer</p>
+                            <ul class="opst_ul_home">
+                                <li>
+                                    <p>1</p>
+                                    <p><span class="only_desktop">Thijmen&ensp;</span>Nijhuis</p>
+                                </li>
+                                <li>
+                                    <p>2</p>
+                                    <p><span class="only_desktop">Sylian&ensp;</span>Mokono</p>
+                                </li>
+                                <li>
+                                    <p>3</p>
+                                    <p><span class="only_desktop">Reda&ensp;</span>Akmum</p>
+                                </li>
+                                <li>
                                     <p>14</p>
-                                    <p>Pflücke</p>
-                                </section>
-                                <section>
-                                    <p>35</p>
-                                    <p>Bouchouari</p>
-                                </section>
-                            </section>
-                            <section>
-                                <img src="images/wisselteken.png" alt="wissel">
-                                <p class="wisseltijd">82'</p>
-                            </section>
-                        </li>
-                        <li class="wissel">
-                            <section class="wisselspelers">
-                                <section>
-                                    <p>8</p>
-                                    <p>Vossebelt</p>
-                                </section>
-                                <section>
-                                    <p>6</p>
-                                    <p>Klaasen</p>
-                                </section>
-                            </section>
-                            <section>
-                                <img src="images/wisselteken.png" alt="wissel">
-                                <p class="wisseltijd">46'</p>
-                            </section>
-                        </li>
-                        <li>
-                            <p>17</p>
-                            <p>Bakker</p>
-                        </li>
-                        <li class="wissel">
-                            <section class="wisselspelers">
-                                <section>
-                                    <p>11</p>
-                                    <p>Croux</p>
-                                </section>
-                                <section>
-                                    <p>7</p>
-                                    <p>Goppel</p>
-                                </section>
-                            </section>
-                            <section>
-                                <img src="images/wisselteken.png" alt="wissel">
-                                <p class="wisseltijd">46'</p>
-                            </section>
-                        </li>
-                        <li class="wissel">
-                            <section class="wisselspelers">
-                                <section>
-                                    <p>33</p>
-                                    <p>Falkenburg</p>
-                                </section>
-                                <section>
-                                    <p>19</p>
-                                    <p>Ioannou</p>
-                                </section>
-                            </section>
-                            <section>
-                                <img src="images/wisselteken.png" alt="wissel">
-                                <p class="wisseltijd">69'</p>
-                            </section>
-                        </li>
-                        <li class="wissel">
-                            <section class="wisselspelers">
-                                <section>
+                                    <p><span class="only_desktop">Christopher&ensp;</span>Mamengi</p>
+                                </li>
+                                <li class="wissel">
+                                    <section class="wisselspelers">
+                                        <section>
+                                            <p>5</p>
+                                            <p><span class="only_desktop">Héritier&ensp;</span>Deyonge</p>
+                                        </section>
+                                        <section>
+                                            <p>19</p>
+                                            <p><span class="only_desktop">Djevencio&ensp;</span>Van der Kust</p>
+                                        </section>
+                                    </section>
+                                    <section>
+                                        <img src="images/wisselteken.png" alt="wissel">
+                                        <p class="wisseltijd">62'</p>
+                                    </section>
+                                </li>
+                                <li class="wissel">
+                                    <section class="wisselspelers">
+                                        <section>
+                                            <p>6</p>
+                                            <p><span class="only_desktop">Justin&ensp;</span>Lonwijk</p>
+                                        </section>
+                                        <section>
+                                            <p>23</p>
+                                            <p><span class="only_desktop">Raymond&ensp;</span>Huizing</p>
+                                        </section>
+                                    </section>
+                                    <section>
+                                        <img src="images/wisselteken.png" alt="wissel">
+                                        <p class="wisseltijd">71'</p>
+                                    </section>
+                                </li>
+                                <li>
                                     <p>10</p>
-                                    <p>Alberg</p>
-                                </section>
-                                <section>
+                                    <p><span class="only_desktop">Hicham&ensp;</span>Acheffay</p>
+                                </li>
+                                <li>
+                                    <p>8</p>
+                                    <p><span class="only_desktop">Othman&ensp;</span>Boussaid</p>
+                                </li>
+                                <li>
+                                    <p>7</p>
+                                    <p><span class="only_desktop">Tim&ensp;</span>Pieters</p>
+                                </li>
+                                <li>
                                     <p>9</p>
-                                    <p>Serrarens</p>
-                                </section>
+                                    <p><span class="only_desktop">Jeredy&ensp;</span>Hilterman <span id="captain">c</span></p>
+                                </li>
+                                <li class="wissel">
+                                    <section class="wisselspelers">
+                                        <section>
+                                            <p>11</p>
+                                            <p><span class="only_desktop">Daniel&ensp;</span>Arzani</p>
+                                        </section>
+                                        <section>
+                                            <p>17</p>
+                                            <p><span class="only_desktop">Mohamed&ensp;</span>Mallahi</p>
+                                        </section>
+                                    </section>
+                                    <section>
+                                        <img src="images/wisselteken.png" alt="wissel">
+                                        <p class="wisseltijd">86'</p>
+                                    </section>
+                                </li>
+                            </ul>
+                        </section>
+                        <section id="away">
+                            <section class="badge_wrapper">
+                               <section>
+                                    <p class="not_desktop">rjc</p>
+                                    <p class="only_desktop">Roda JC Kerkrade</p>
+                                    <p class="only_desktop">Coach: Jurgen Streppel</p>
+                               </section>
+                                <img src="images/rjc.png" alt="Roda JC">
                             </section>
-                            <section>
-                                <img src="images/wisselteken.png" alt="wissel">
-                                <p class="wisseltijd">46'</p>
+                            <p class="not_desktop">Coach: Streppel</p>
+                            <ul class="opst_ul_away">
+                                <li>
+                                    <p>21</p>
+                                    <p><span class="only_desktop">Miguel&ensp;</span>Santos</p>
+                                </li>
+                                <li>
+                                    <p>2</p>
+                                    <p><span class="only_desktop">Stefano&ensp;</span>Marzo</p>
+                                </li>
+                                <li>
+                                    <p>4</p>
+                                    <p><span id="captain">c</span> <span class="only_desktop">Kees&ensp;</span>Luijckx</p>
+                                </li>
+                                <li>
+                                    <p>20</p>
+                                    <p><span class="only_desktop">Xander&ensp;</span>Lambrix</p>
+                                </li>
+                                <li>
+                                    <p>5</p>
+                                    <p><span class="only_desktop">Amir&ensp;</span>Absalem</p>
+                                </li>
+                                <li class="wissel">
+                                    <section class="wisselspelers">
+                                        <section>
+                                            <p>14</p>
+                                            <p><span class="only_desktop">Patrick&ensp;</span>Pflücke</p>
+                                        </section>
+                                        <section>
+                                            <p>35</p>
+                                            <p><span class="only_desktop">Benjamin&ensp;</span>Bouchouari</p>
+                                        </section>
+                                    </section>
+                                    <section>
+                                        <img src="images/wisselteken.png" alt="wissel">
+                                        <p class="wisseltijd">82'</p>
+                                    </section>
+                                </li>
+                                <li class="wissel">
+                                    <section class="wisselspelers">
+                                        <section>
+                                            <p>8</p>
+                                            <p><span class="only_desktop">Niek&ensp;</span>Vossebelt</p>
+                                        </section>
+                                        <section>
+                                            <p>6</p>
+                                            <p><span class="only_desktop">Robert&ensp;</span>Klaasen</p>
+                                        </section>
+                                    </section>
+                                    <section>
+                                        <img src="images/wisselteken.png" alt="wissel">
+                                        <p class="wisseltijd">46'</p>
+                                    </section>
+                                </li>
+                                <li>
+                                    <p>17</p>
+                                    <p><span class="only_desktop">Danny&ensp;</span>Bakker</p>
+                                </li>
+                                <li class="wissel">
+                                    <section class="wisselspelers">
+                                        <section>
+                                            <p>11</p>
+                                            <p><span class="only_desktop">Jordy&ensp;</span>Croux</p>
+                                        </section>
+                                        <section>
+                                            <p>7</p>
+                                            <p><span class="only_desktop">Thijmen&ensp;</span>Goppel</p>
+                                        </section>
+                                    </section>
+                                    <section>
+                                        <img src="images/wisselteken.png" alt="wissel">
+                                        <p class="wisseltijd">46'</p>
+                                    </section>
+                                </li>
+                                <li class="wissel">
+                                    <section class="wisselspelers">
+                                        <section>
+                                            <p>33</p>
+                                            <p><span class="only_desktop">Erik&ensp;</span>Falkenburg</p>
+                                        </section>
+                                        <section>
+                                            <p>19</p>
+                                            <p><span class="only_desktop">Michalis&ensp;</span>Ioannou</p>
+                                        </section>
+                                    </section>
+                                    <section>
+                                        <img src="images/wisselteken.png" alt="wissel">
+                                        <p class="wisseltijd">69'</p>
+                                    </section>
+                                </li>
+                                <li class="wissel">
+                                    <section class="wisselspelers">
+                                        <section>
+                                            <p>10</p>
+                                            <p><span class="only_desktop">Roland&ensp;</span>Alberg</p>
+                                        </section>
+                                        <section>
+                                            <p>9</p>
+                                            <p><span class="only_desktop">Fabian&ensp;</span>Serrarens</p>
+                                        </section>
+                                    </section>
+                                    <section>
+                                        <img src="images/wisselteken.png" alt="wissel">
+                                        <p class="wisseltijd">46'</p>
+                                    </section>
+                                </li>
+                            </ul>
+                        </section>
+                    </section>
+                    <section id="bank_wrapper">
+                        <button id="bank_btn"><span id="bank_span">Bank</span><span id="opst_span" class="invisible">Opstelling</span></button>
+                        <section id="bank" class="invisible">
+                            <section id="bank_home">
+                                <ul>
+                                    <li class="wissel">
+                                        <section class="wisselspelers">
+                                            <section>
+                                                <p>5</p>
+                                                <p><span class="only_desktop">Héritier&ensp;</span>Deyonge</p>
+                                            </section>
+                                            <section>
+                                                <p>19</p>
+                                                <p><span class="only_desktop">Djevencio&ensp;</span>Van der Kust</p>
+                                            </section>
+                                        </section>
+                                        <section>
+                                            <img src="images/wisselteken.png" alt="wissel">
+                                            <p class="wisseltijd">62'</p>
+                                        </section>
+                                    </li>
+                                    <li class="wissel">
+                                        <section class="wisselspelers">
+                                            <section>
+                                                <p>6</p>
+                                                <p><span class="only_desktop">Justin&ensp;</span>Lonwijk</p>
+                                            </section>
+                                            <section>
+                                                <p>23</p>
+                                                <p><span class="only_desktop">Raymond&ensp;</span>Huizing</p>
+                                            </section>
+                                        </section>
+                                        <section>
+                                            <img src="images/wisselteken.png" alt="wissel">
+                                            <p class="wisseltijd">71'</p>
+                                        </section>
+                                    </li>
+                                    <li class="wissel">
+                                        <section class="wisselspelers">
+                                            <section>
+                                                <p>11</p>
+                                                <p><span class="only_desktop">Daniel&ensp;</span>Arzani</p>
+                                            </section>
+                                            <section>
+                                                <p>17</p>
+                                                <p><span class="only_desktop">Mohamed&ensp;</span>Mallahi</p>
+                                            </section>
+                                        </section>
+                                        <section>
+                                            <img src="images/wisselteken.png" alt="wissel">
+                                            <p class="wisseltijd">86'</p>
+                                        </section>
+                                    </li>
+                                    <li>
+                                        <p>16</p>
+                                        <p><span class="only_desktop">Ahmed&ensp;</span>Azmi</p>
+                                    </li>
+                                    <li>
+                                        <p>15</p>
+                                        <p><span class="only_desktop">Ruben&ensp;</span>Kluivert</p>
+                                    </li>
+                                    <li>
+                                        <p>12</p>
+                                        <p><span class="only_desktop">Mark&ensp;</span>Pabai</p>
+                                    </li>
+                                    <li>
+                                        <p>21</p>
+                                        <p><span class="only_desktop">Denso&ensp;</span>Kasius</p>
+                                    </li>
+                                    <li>
+                                        <p>18</p>
+                                        <p><span class="only_desktop">Zineddine&ensp;</span>Bourebaba</p>
+                                    </li>
+                                    <li>
+                                        <p>20</p>
+                                        <p><span class="only_desktop">Derensili&ensp;</span>Sanches Fernandes</p>
+                                    </li>
+                                    <li>
+                                        <p>22</p>
+                                        <p><span class="only_desktop">Oussama&ensp;</span>Alou</p>
+                                    </li>
+                                </ul>
                             </section>
-                        </li>
-                    </ul>
-                </section>
-            </section>
-            <section id="bank_wrapper">
-                <button id="bank_btn"><span id="bank_span">Bank</span><span id="opst_span" class="invisible">Opstelling</span></button>
-                <section id="bank" class="invisible">
-                    <section id="bank_home">
-                        <ul>
-                            <li class="wissel">
-                                <section class="wisselspelers">
-                                    <section>
-                                        <p>5</p>
-                                        <p>Deyonge</p>
-                                    </section>
-                                    <section>
-                                        <p>19</p>
-                                        <p>Van der Kust</p>
-                                    </section>
-                                </section>
-                                <section>
-                                    <img src="images/wisselteken.png" alt="wissel">
-                                    <p class="wisseltijd">62'</p>
-                                </section>
-                            </li>
-                            <li class="wissel">
-                                <section class="wisselspelers">
-                                    <section>
-                                        <p>6</p>
-                                        <p>Lonwijk</p>
-                                    </section>
-                                    <section>
+                            <section id="bank_away">
+                                <ul>
+                                    <li class="wissel">
+                                        <section class="wisselspelers">
+                                            <section>
+                                                <p>8</p>
+                                                <p><span class="only_desktop">Mohamed&ensp;</span>Vossebelt</p>
+                                            </section>
+                                            <section>
+                                                <p>6</p>
+                                                <p><span class="only_desktop">Mohamed&ensp;</span>Klaasen</p>
+                                            </section>
+                                        </section>
+                                        <section>
+                                            <img src="images/wisselteken.png" alt="wissel">
+                                            <p class="wisseltijd">46'</p>
+                                        </section>
+                                    </li>
+                                    <li class="wissel">
+                                        <section class="wisselspelers">
+                                            <section>
+                                                <p>11</p>
+                                                <p><span class="only_desktop">Niek&ensp;</span>Croux</p>
+                                            </section>
+                                            <section>
+                                                <p>7</p>
+                                                <p><span class="only_desktop">Robert&ensp;</span>Goppel</p>
+                                            </section>
+                                        </section>
+                                        <section>
+                                            <img src="images/wisselteken.png" alt="wissel">
+                                            <p class="wisseltijd">46'</p>
+                                        </section>
+                                    </li>
+                                    <li class="wissel">
+                                        <section class="wisselspelers">
+                                            <section>
+                                                <p>10</p>
+                                                <p><span class="only_desktop">Roland&ensp;</span>Alberg</p>
+                                            </section>
+                                            <section>
+                                                <p>9</p>
+                                                <p><span class="only_desktop">Fabian&ensp;</span>Serrarens</p>
+                                            </section>
+                                        </section>
+                                        <section>
+                                            <img src="images/wisselteken.png" alt="wissel">
+                                            <p class="wisseltijd">46'</p>
+                                        </section>
+                                    </li>
+                                    <li class="wissel">
+                                        <section class="wisselspelers">
+                                            <section>
+                                                <p>33</p>
+                                                <p><span class="only_desktop">Erik&ensp;</span>Falkenburg</p>
+                                            </section>
+                                            <section>
+                                                <p>19</p>
+                                                <p><span class="only_desktop">Michalis&ensp;</span>Ioannou</p>
+                                            </section>
+                                        </section>
+                                        <section id="wissel">
+                                            <img src="images/wisselteken.png" alt="wissel">
+                                            <p class="wisseltijd">69'</p>
+                                        </section>
+                                    </li>
+                                    <li class="wissel">
+                                        <section class="wisselspelers">
+                                            <section>
+                                                <p>14</p>
+                                                <p><span class="only_desktop">Patrick&ensp;</span>Pflücke</p>
+                                            </section>
+                                            <section>
+                                                <p>35</p>
+                                                <p><span class="only_desktop">Benjamin&ensp;</span>Bouchouari</p>
+                                            </section>
+                                        </section>
+                                        <section id="wissel">
+                                            <img src="images/wisselteken.png" alt="wissel">
+                                            <p class="wisseltijd">82'</p>
+                                        </section>
+                                    </li>
+                                    <li>
+                                        <p>16</p>
+                                        <p><span class="only_desktop">Youri&ensp;</span>Roulaux</p>
+                                    </li>
+                                    <li>
+                                        <p>36</p>
+                                        <p><span class="only_desktop">Loek&ensp;</span>Hamers</p>
+                                    </li>
+                                    <li>
+                                        <p>13</p>
+                                        <p><span class="only_desktop">Pepijn&ensp;</span>Schlösser</p>
+                                    </li>
+                                    <li>
                                         <p>23</p>
-                                        <p>Huizing</p>
-                                    </section>
-                                </section>
-                                <section>
-                                    <img src="images/wisselteken.png" alt="wissel">
-                                    <p class="wisseltijd">71'</p>
-                                </section>
-                            </li>
-                            <li class="wissel">
-                                <section class="wisselspelers">
-                                    <section>
-                                        <p>11</p>
-                                        <p>Arzani</p>
-                                    </section>
-                                    <section>
-                                        <p>17</p>
-                                        <p>Mallahi</p>
-                                    </section>
-                                </section>
-                                <section>
-                                    <img src="images/wisselteken.png" alt="wissel">
-                                    <p class="wisseltijd">86'</p>
-                                </section>
-                            </li>
-                            <li>
-                                <p>16</p>
-                                <p>Azmi</p>
-                            </li>
-                            <li>
-                                <p>15</p>
-                                <p>Kluivert</p>
-                            </li>
-                            <li>
-                                <p>12</p>
-                                <p>Pabai</p>
-                            </li>
-                            <li>
-                                <p>21</p>
-                                <p>Kasius</p>
-                            </li>
-                            <li>
-                                <p>18</p>
-                                <p>Bourebaba</p>
-                            </li>
-                            <li>
-                                <p>20</p>
-                                <p>Sanches Fernandes</p>
-                            </li>
-                            <li>
-                                <p>22</p>
-                                <p>Alou</p>
-                            </li>
-                        </ul>
-                    </section>
-                    <section id="bank_away">
-                        <ul>
-                            <li class="wissel">
-                                <section class="wisselspelers">
-                                    <section>
-                                        <p>8</p>
-                                        <p>Vossebelt</p>
-                                    </section>
-                                    <section>
-                                        <p>6</p>
-                                        <p>Klaasen</p>
-                                    </section>
-                                </section>
-                                <section>
-                                    <img src="images/wisselteken.png" alt="wissel">
-                                    <p class="wisseltijd">46'</p>
-                                </section>
-                            </li>
-                            <li class="wissel">
-                                <section class="wisselspelers">
-                                    <section>
-                                        <p>11</p>
-                                        <p>Croux</p>
-                                    </section>
-                                    <section>
-                                        <p>7</p>
-                                        <p>Goppel</p>
-                                    </section>
-                                </section>
-                                <section>
-                                    <img src="images/wisselteken.png" alt="wissel">
-                                    <p class="wisseltijd">46'</p>
-                                </section>
-                            </li>
-                            <li class="wissel">
-                                <section class="wisselspelers">
-                                    <section>
-                                        <p>10</p>
-                                        <p>Alberg</p>
-                                    </section>
-                                    <section>
-                                        <p>9</p>
-                                        <p>Serrarens</p>
-                                    </section>
-                                </section>
-                                <section>
-                                    <img src="images/wisselteken.png" alt="wissel">
-                                    <p class="wisseltijd">46'</p>
-                                </section>
-                            </li>
-                            <li class="wissel">
-                                <section class="wisselspelers">
-                                    <section>
-                                        <p>33</p>
-                                        <p>Falkenburg</p>
-                                    </section>
-                                    <section>
-                                        <p>19</p>
-                                        <p>Ioannou</p>
-                                    </section>
-                                </section>
-                                <section id="wissel">
-                                    <img src="images/wisselteken.png" alt="wissel">
-                                    <p class="wisseltijd">69'</p>
-                                </section>
-                            </li>
-                            <li class="wissel">
-                                <section class="wisselspelers">
-                                    <section>
-                                        <p>14</p>
-                                        <p>Pflücke</p>
-                                    </section>
-                                    <section>
-                                        <p>35</p>
-                                        <p>Bouchouari</p>
-                                    </section>
-                                </section>
-                                <section id="wissel">
-                                    <img src="images/wisselteken.png" alt="wissel">
-                                    <p class="wisseltijd">82'</p>
-                                </section>
-                            </li>
-                            <li>
-                                <p>16</p>
-                                <p>Roulaux</p>
-                            </li>
-                            <li>
-                                <p>36</p>
-                                <p>Hamers</p>
-                            </li>
-                            <li>
-                                <p>13</p>
-                                <p>Schlösser</p>
-                            </li>
-                            <li>
-                                <p>23</p>
-                                <p>Dunkwu</p>
-                            </li>
-                            <li>
-                                <p>27</p>
-                                <p>Keulen</p>
-                            </li>
-                            <li>
-                                <p>24</p>
-                                <p>Souren</p>
-                            </li>
-                            <li>
-                                <p>25</p>
-                                <p>Milts</p>
-                            </li>
-                        </ul>
+                                        <p><span class="only_desktop">Leslie&ensp;</span>Dunkwu</p>
+                                    </li>
+                                    <li>
+                                        <p>27</p>
+                                        <p><span class="only_desktop">Mitchel&ensp;</span>Keulen</p>
+                                    </li>
+                                    <li>
+                                        <p>24</p>
+                                        <p><span class="only_desktop">Nicky&ensp;</span>Souren</p>
+                                    </li>
+                                    <li>
+                                        <p>25</p>
+                                        <p><span class="only_desktop">Livio&ensp;</span>Milts</p>
+                                    </li>
+                                </ul>
+                            </section>
+                        </section>
                     </section>
                 </section>
+                <section id="wed-info" class="wedstrijd">
+                    <section id="top-info">
+                        <p><span>Scheidsrechter:</span> Jesse Rozendaal</p>
+                        <p><span>Toeschouwers:</span></p>
+                    </section>
+                    <img src="images/tijdlijn_desktop.png" alt="De tijdlijn van de westrijd">
+                    <table id="tijdlijn">
+                        <tbody>
+                            <tr>
+                                <td>43'</td>
+                                <td>
+                                    <p><span class="only_desktop">Othman</span> Boussaid</p>
+                                    <p class="only_desktop">(Assist: Héritier Deyonge)</p>
+                                </td> <!-- een cel voor als het thuis team scoort, deze kan dus leeg zijn -->
+                                <td>1 - 0</td>
+                                <td></td> <!-- een cel voor als het bezoekende team scoort, deze kan dus leeg zijn -->
+                            </tr>
+                            <tr>
+                                <td>80'</td>
+                                <td>
+                                    <p><span class="only_desktop">Tim</span> Pieters</p>
+                                    <p class="only_desktop">(Assist: Hicham Acheffay)</p>
+                                </td> <!-- een cel voor als het thuia team scoort, deze kan dus leeg zijn -->
+                                <td>2 - 0</td>
+                                <td></td> <!-- een cel voor als het bezoekende team scoort, deze kan dus leeg zijn -->
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section id="wed-stats" class="wedstrijd">
+                    <h2>Wedstrijdstatistieken</h2>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Gele kaarten</th>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    <img src="images/kaarten.png" alt="Gele kaarten statistiek" class="stats">
+                                </td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th>Rode kaarten</th>
+                            </tr>
+                            <tr>
+                                <td>0</td>
+                                <td>
+                                    <img src="images/kaarten.png" alt="Rode kaarten statistiek" class="stats opacity">
+                                </td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
             </section>
-        </section>
-        <section id="wed-info" class="wedstrijd">
-            <section id="top-info">
-                <p><span>Scheidsrechter:</span> Jesse Rozendaal</p>
-                <p><span>Toeschouwers:</span></p>
-            </section>
-            <img src="images/tijdlijn.png" alt="De tijdlijn van de westrijd">
-            <table id="tijdlijn">
-                <tbody>
-                    <tr>
-                        <td>43'</td>
-                        <td>Boussaid</td> <!-- een cel voor als het thuis team scoort, deze kan dus leeg zijn -->
-                        <td>1-0</td>
-                        <td></td> <!-- een cel voor als het bezoekende team scoort, deze kan dus leeg zijn -->
-                    </tr>
-                    <tr>
-                        <td>80'</td>
-                        <td>Pieters</td> <!-- een cel voor als het thuia team scoort, deze kan dus leeg zijn -->
-                        <td>2-0</td>
-                        <td></td> <!-- een cel voor als het bezoekende team scoort, deze kan dus leeg zijn -->
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-        <section id="wed-stats" class="wedstrijd">
-            <h2>Wedstrijdstatistieken</h2>
-            <table>
-                <tbody>
-                    <tr>
-                        <th>Gele kaarten</th>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>
-                            <img src="images/kaarten.png" alt="Gele kaarten statistiek" class="stats">
-                        </td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <th>Rode kaarten</th>
-                    </tr>
-                    <tr>
-                        <td>0</td>
-                        <td>
-                            <img src="images/kaarten.png" alt="Rode kaarten statistiek" class="stats opacity">
-                        </td>
-                        <td>0</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
     </main>
     <footer>
-        <a href="/index.html">
-            <img id="logo" src="images/nos.png" alt="NOS logo">
+        <a class="only_mob" href="/frontendHVA/">
+            <img class="logo" src="images/nos.png" alt="NOS logo">
         </a>
-        <section class="not_mob invisible">
+        <section class="not_mob">
+            <a href="/frontendHVA/">
+                <img class="logo" src="images/nos.png" alt="NOS logo">
+            </a>
             <a href="/nieuws/">Nieuws</a>
             <a href="/sport/">Sport</a>
             <a href="/uitzendingen/">Uitzendingen</a>
@@ -668,7 +745,7 @@
         </section>
 
         <section id="footer_column">
-            <h3 id="footer_title" class="invisible">Info</h3>
+            <h3 id="footer_title" class="not_mob ">Info</h3>
             <a href="https://over.nos.nl/">Over de NOS</a>
             <a href="https://www.werkenbijdenos.nl/">Werken bij de NOS</a>
             <a href="https://over.nos.nl/uw-reacties">Contact</a>
@@ -681,26 +758,29 @@
             <a href="https://over.nos.nl/organisatie/privacy/">Privacy</a>
         </section>
 
-        <section class="not_mob invisible">
+        <section class="not_mob">
             <h3>Volg de NOS</h3>
             <a href="https://twitter.com/nos/" target="_blank">
-                Twitter
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <p>Twitter</p>
             </a>
             <a href="https://www.facebook.com/nos" target="_blank">
-                Facebook
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <p>Facebook</p>
             </a>
             <a href="https://instagram.com/nos/" target="_blank">
-                Instagram
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <p>Instagram</p>
             </a>
 
             <a href="https://www.youtube.com/channel/UC5xziMuoFAOpX9mwUVhe2Jw/channels" target="_blank">
-                YouTube
+                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                <p>YouTube</p>
             </a>
             <a href="https://nos.nl/feeds/" target="_blank">
-                RSS
+                <i class="fa fa-rss" aria-hidden="true"></i>
+                <p>RSS</p>
             </a>
-            <p>Like op Facebook</p>
-
         </section>
 
 
@@ -709,7 +789,7 @@
                 <a href="#">Cookie-instellingen</a>
             </p>
             <p>
-                © NOS 2020
+                © NOS 2021
             </p>
         </section>
 

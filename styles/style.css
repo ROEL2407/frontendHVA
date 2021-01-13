@@ -114,15 +114,19 @@ body.menuOpen #burger span:last-of-type {
     transform: translatey(0) rotate(-45deg);
 }
 
+.not_mob {
+    display: none;
+}
+
 #menu {
     border-bottom: 1px solid #e3e3e3;
 }
 
-#logo {
+.logo {
     width: 6em;
 }
 
-#nav section:last-of-type {
+#nav section:nth-of-type(4) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -131,7 +135,7 @@ body.menuOpen #burger span:last-of-type {
     padding: .5em 0;
 }
 
-#nav section:last-of-type div {
+#nav section:nth-of-type(4) div {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -196,6 +200,10 @@ main {
     color: black;
 }
 
+#main-wrapper {
+    width: 100%;
+}
+
 .comp {
     border-top: 1px solid #e3e3e3;
 }
@@ -217,6 +225,7 @@ main {
     font-size: 10px;
     font-weight: 700;
     margin-top: .25em;
+    color: #666;
 }
 
 .comp a {
@@ -287,6 +296,7 @@ date i:last-of-type {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 #competities_dag tr td {
@@ -327,6 +337,11 @@ date i:last-of-type {
     width: auto;
     padding: .5em 0;
 
+}
+
+#competities_dag .desktop_teamname {
+    display: none;
+    text-transform: initial;
 }
 
 footer {
@@ -471,9 +486,7 @@ footer a {
 
 #wed-info img {
     width: 100%;
-    max-width: 800px;
     margin: 0em auto;
-    display: block;
 }
 
 #tijdlijn tr {
@@ -486,6 +499,10 @@ footer a {
 
 #tijdlijn tr td:first-of-type {
     padding-left: 1em;
+}
+
+.only_desktop {
+    display: none;
 }
 
 #wed-stats h2 {
@@ -526,14 +543,21 @@ footer a {
     flex-direction: row;
 }
 
-.badge_wrapper img {
+#opstelling img {
+    width: 100%;
+    margin-top: 1em;
+}
+
+
+#opstelling .badge_wrapper img {
     width: 65px;
     height: 65px;
 }
 
 #home,
 #away,
-#bank_home {
+#bank_home,
+#bank_away {
     display: flex;
     flex-direction: column;
     width: 49%;
@@ -582,6 +606,7 @@ footer a {
 #bank_home ul li p:first-of-type,
 #bank_away ul li p:first-of-type {
     color: #b5b0b0;
+    width: 1em;
 }
 
 #away ul li,
@@ -660,12 +685,303 @@ footer a {
 }
 
 /* Tablet ----------- */
-@media (min-width : 768px) and (max-width : 1024px) {
-    /* Styles */
+@media (min-width : 768px) {
 
+    /* Styles */
+    #nav {
+        justify-content: flex-start;
+    }
+
+    #nav section {
+        margin-right: 2em;
+    }
+
+    #nav section:first-of-type {
+        margin-left: 1.5em;
+    }
+
+    .logo {
+        width: 5em;
+    }
+
+    .not_mob {
+        display: block;
+    }
+
+    #header_menu {
+        display: flex;
+        align-items: center;
+        width: 17em;
+    }
+
+    #header_menu ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #burger {
+        display: none;
+    }
+
+    #nav section:nth-child(3) {
+        display: flex;
+        align-items: center;
+    }
+
+    #nav section:nth-child(3) img {
+        max-width: 6em;
+    }
+
+    #breadcrumb {
+        justify-content: center;
+    }
+
+    #breadcrumb p:last-of-type {
+        display: none;
+    }
+
+    #breadcrumb p:first-of-type {
+        font-size: 1.75em;
+    }
+
+    #main_wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #widget {
+        width: 29%;
+    }
+
+    #widget ul li {
+        height: 3em;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    #widget ul .subitem p {
+        margin-left: 2.5em;
+        color: #666;
+    }
+
+    #widget ul li:nth-of-type(5) {
+        color: #E61E14;
+        border-left: 3px solid #E61E14;
+    }
+
+    #widget ul li:nth-of-type(5) p {
+        color: #E61E14;
+    }
+
+    #widget ul li p {
+        margin-left: 1.5em;
+        margin-top: 0em;
+        color: #333;
+    }
+
+    #widget p {
+        margin-top: 3em;
+        color: #999;
+    }
+
+    #widget p i {
+        margin-left: .5em;
+    }
+
+    #info_wrapper {
+        width: 69%;
+    }
+
+    .only_mob {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        height: 20em;
+        margin-bottom: 0em;
+    }
+
+    footer section {
+        display: flex;
+        flex-direction: column;
+        margin-right: 2em;
+    }
+
+    #footer-column {
+        padding: 0em;
+    }
+
+    footer section a {
+        display: block;
+        margin-bottom: .5em;
+    }
+
+    footer section h3 {
+        margin-bottom: 1em;
+        color: #999;
+        font-size: .75em;
+        text-transform: uppercase;
+    }
+
+    footer section:nth-of-type(3) a {
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer section:nth-of-type(3) a i {
+        margin-right: 1.5em;
+        width: 1.25em;
+    }
+
+    #copy {
+        position: absolute;
+        left: 1em;
+        right: 1em;
+        bottom: .5em;
+        margin-right: 0em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 /* Desktops en laptops ----------- */
 @media (min-width : 1224px) {
+
     /* Styles */
+    #nav {
+        justify-content: space-around;
+    }
+
+    #nav section:nth-of-type(4) {
+        min-width: 9em;
+    }
+
+    #nav section:nth-of-type(4) div:first-of-type img {
+        width: 1.75em;
+    }
+
+    #nav section:nth-of-type(5){
+        display: flex;
+        align-items: center;
+    }}
+
+    #nav section:nth-of-type(5) img {
+        width: 4em;
+        border: 1px solid #999;
+        padding: .5em;
+        border-radius: .5em;
+    }
+
+    #widget {
+        width: 19%;
+    }
+
+    #info_wrapper {
+        width: 79%;
+    }
+
+    .not_desktop {
+        display: none;
+    }
+
+    #widget ul li:hover {
+        border-left: 3px solid #E61E14;
+    }
+
+    #widget ul li:hover p {
+        color: #E61E14;
+    }
+
+    #competities_dag tr td:nth-of-type(5) {
+        font-weight: 700;
+        color: #999;
+    }
+
+    #competities_dag tr td:nth-of-type(5):hover {
+        color: #E61E14;
+    }
+
+    #competities_dag tr td:nth-of-type(2) {
+        width: 50%;
+    }
+
+    #competities_dag tr td:nth-of-type(3) {
+        padding-right: 3em;
+        width: 150%;
+    }
+
+    #competities_dag tr td:nth-of-type(7) {
+        width: 150%;
+    }
+
+    #competities_dag tr td:nth-of-type(8) {
+        width: 50%;
+    }
+
+    #competities_dag .desktop_teamname {
+        display: block;
+    }
+
+    #competities_dag .teamname {
+        display: none;
+    }
+
+    span.only_desktop {
+        display: inline-block;
+    }
+
+    .only_desktop {
+        display: block;
+    }
+
+    .badge_wrapper section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-left: 1em;
+    }
+
+    #away .badge_wrapper section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        margin-right: 1em;
+        margin-left: 0em;
+    }
+
+
+
+    #home .badge_wrapper p:last-of-type,
+    #away .badge_wrapper p:last-of-type {
+        text-transform: initial;
+        font-weight: 400;
+        color: #999;
+        font-size: .75em;
+
+    }
+
+    #copy {
+        left: 3em;
+        right: 3em;
+    }
+
+    footer {
+        justify-content: space-around;
+    }
+
+    footer section:first-of-type {
+        margin-left: 3em;
+    }
+
+    footer section {
+        height: 1em;
+    }
 }
