@@ -208,6 +208,11 @@ main {
     width: 100%;
 }
 
+
+#info_wrapper {
+    width: 100%;
+}
+
 .comp {
     border-top: 1px solid #e3e3e3;
 }
@@ -874,123 +879,122 @@ footer a {
         display: flex;
         align-items: center;
     }
-}
 
-#nav section:nth-of-type(5) img {
-    width: 4em;
-    border: 1px solid #999;
-    padding: .5em;
-    border-radius: .5em;
-}
+    #nav section:nth-of-type(5) img {
+        width: 4em;
+        border: 1px solid #999;
+        padding: .5em;
+        border-radius: .5em;
+    }
 
-#widget {
-    width: 19%;
-}
+    #widget {
+        width: 19%;
+    }
 
-#info_wrapper {
-    width: 79%;
-}
+    #info_wrapper {
+        width: 79%;
+    }
 
-.not_desktop {
-    display: none;
-}
+    .not_desktop {
+        display: none;
+    }
 
-#widget ul li:hover {
-    border-left: 3px solid #E61E14;
-}
+    #widget ul li:hover {
+        border-left: 3px solid #E61E14;
+    }
 
-#widget ul li:hover p {
-    color: #E61E14;
-}
+    #widget ul li:hover p {
+        color: #E61E14;
+    }
 
-#competities_dag tr td:nth-of-type(5) {
-    font-weight: 700;
-    color: #999;
-}
+    #competities_dag tr td:nth-of-type(5) {
+        font-weight: 700;
+        color: #999;
+    }
 
-#competities_dag tr td:nth-of-type(5):hover {
-    color: #E61E14;
-}
+    #competities_dag tr td:nth-of-type(5):hover {
+        color: #E61E14;
+    }
 
-#competities_dag tr td:nth-of-type(2) {
-    width: 50%;
-}
+    #competities_dag tr td:nth-of-type(2) {
+        width: 50%;
+    }
 
-#competities_dag tr td:nth-of-type(3) {
-    padding-right: 3em;
-    width: 150%;
-}
+    #competities_dag tr td:nth-of-type(3) {
+        padding-right: 3em;
+        width: 150%;
+    }
 
-#competities_dag tr td:nth-of-type(7) {
-    width: 150%;
-}
+    #competities_dag tr td:nth-of-type(7) {
+        width: 150%;
+    }
 
-#competities_dag tr td:nth-of-type(8) {
-    width: 50%;
-}
+    #competities_dag tr td:nth-of-type(8) {
+        width: 50%;
+    }
 
-#competities_dag .desktop_teamname {
-    display: block;
-}
+    #competities_dag .desktop_teamname {
+        display: block;
+    }
 
-#competities_dag .teamname {
-    display: none;
-}
+    #competities_dag .teamname {
+        display: none;
+    }
 
-span.only_desktop {
-    display: inline-block;
-}
+    span.only_desktop {
+        display: inline-block;
+    }
 
-.only_desktop {
-    display: block;
-}
+    .only_desktop {
+        display: block;
+    }
 
-#nav section div.only_desktop {
-    display block;
-}
+    #nav section:nth-of-type(4) div.only_desktop {
+        display: block;
+    }
 
-.badge_wrapper section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-left: 1em;
-}
+    .badge_wrapper section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-left: 1em;
+    }
 
-#away .badge_wrapper section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    margin-right: 1em;
-    margin-left: 0em;
-}
-
+    #away .badge_wrapper section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        margin-right: 1em;
+        margin-left: 0em;
+    }
 
 
-#home .badge_wrapper p:last-of-type,
-#away .badge_wrapper p:last-of-type {
-    text-transform: initial;
-    font-weight: 400;
-    color: #999;
-    font-size: .75em;
 
-}
+    #home .badge_wrapper p:last-of-type,
+    #away .badge_wrapper p:last-of-type {
+        text-transform: initial;
+        font-weight: 400;
+        color: #999;
+        font-size: .75em;
 
-#copy {
-    left: 3em;
-    right: 3em;
-}
+    }
 
-footer {
-    justify-content: space-around;
-}
+    #copy {
+        left: 3em;
+        right: 3em;
+    }
 
-footer section:first-of-type {
-    margin-left: 3em;
-}
+    footer {
+        justify-content: space-around;
+    }
 
-footer section {
-    height: 1em;
-}
+    footer section:first-of-type {
+        margin-left: 3em;
+    }
+
+    footer section {
+        height: 1em;
+    }
 }
