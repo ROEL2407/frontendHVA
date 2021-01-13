@@ -14,24 +14,27 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+-dit ging goed & dit was lastig-<br />
+Na mijn laatste vragen heb ik geen moiete meer gehad behalve een } die verkeerd stond bij mijn media querie
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+
+<img src="images/index_eind.png" width="375px" alt="Het eindresultaat van de index pagina"><br />
+<img src="images/wedstrijd_eind.png" width="375px" alt="Het eindresultaat van de wedstrijd pagina">
 
 
 
 ## Voortgang 3 (week 6)
 
--dit ging goed & dit was lastig-
+-dit ging goed & dit was lastig-<br />
 Na vragen te hebben gesteld op het frontend kanaal voor mijn doorlink probleem ben ik op zoek gegaan naar een javascript manier. Uiteindelijk heb ik het werken gekregen maar nog niet zoals ik zou willen. Hier zal ik dan ook nog naar vragen.
 
 
 
 ## Voortgang 2 (week 5)
 
--dit ging goed & dit was lastig-
+-dit ging goed & dit was lastig-<br />
 voor dit voortgangsmoment had ik een aantal vragen en probleempjes samengevat. dit waren:
 
 Moet ik alles overnemen aangezien de pagina door een api veranderd wordt?
@@ -46,7 +49,7 @@ Het doorlinken was voor mij een heel erg struikelblok aangezien ik dit perfect w
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-dit ging goed & dit was lastig-<br />
 Niets ging eigenlijk heel slecht, ik heb een paar keer ruzie gehad met de css die niet eruit kwam zoals ik wilde of helemaal niet maar na goed kijken is dat mij gelukt.
 
 **Screenshot(s):**
