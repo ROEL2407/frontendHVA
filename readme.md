@@ -19,9 +19,10 @@ Na mijn laatste vragen heb ik geen moiete meer gehad behalve een } die verkeerd 
 
 **Screenshot(s):**
 
-
-<img src="images/index_eind.PNG" width="375px" alt="Het eindresultaat van de index pagina"><br />
-<img src="images/wedstrijd_eind.PNG" width="375px" alt="Het eindresultaat van de wedstrijd pagina">
+Het eindresultaat van de index pagina<br />
+<img src="images/index_eind.png" width="375px" alt="Het eindresultaat van de index pagina"><br />
+Het eindresultaat van de wedstrijd pagina<br />
+<img src="images/wedstrijd_eind.png" width="375px" alt="Het eindresultaat van de wedstrijd pagina">
 
 
 
