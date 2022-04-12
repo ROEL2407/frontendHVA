@@ -20,9 +20,9 @@ Na mijn laatste vragen heb ik geen moiete meer gehad behalve een } die verkeerd 
 **Screenshot(s):**
 
 Het eindresultaat van de index pagina<br />
-<img src="images/index_eind.png" width="375px" alt="Het eindresultaat van de index pagina"><br />
+<img src="https://github.com/ROEL2407/frontendHVA/blob/main/images/index_eind.png?raw=true" width="375px" alt="Het eindresultaat van de index pagina"><br />
 Het eindresultaat van de wedstrijd pagina<br />
-<img src="images/wedstrijd_eind.png" width="375px" alt="Het eindresultaat van de wedstrijd pagina">
+<img src="https://github.com/ROEL2407/frontendHVA/blob/main/images/wedstrijd_eind.png?raw=true" width="375px" alt="Het eindresultaat van de wedstrijd pagina">
 
 
 
@@ -55,7 +55,7 @@ Niets ging eigenlijk heel slecht, ik heb een paar keer ruzie gehad met de css di
 
 **Screenshot(s):**
 
-<img src="images/werk1.png" width="375px" alt="De eerste versie na 1 dag werken">
+<img src="https://github.com/ROEL2407/frontendHVA/blob/main/images/werk1.png?raw=true" width="375px" alt="De eerste versie na 1 dag werken">
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
@@ -75,10 +75,10 @@ Niets ging eigenlijk heel slecht, ik heb een paar keer ruzie gehad met de css di
 ## Breakdownschets (week 1)
 
 **Breakdownschets voor de hele pagina**<br />
-<img src="images/break_pagina.png" width="375px" alt="De breakdownschets van de overzichtspagina van de wedstrijden op een dag.">
+<img src="https://github.com/ROEL2407/frontendHVA/blob/main/images/break_pagina.png?raw=true" width="375px" alt="De breakdownschets van de overzichtspagina van de wedstrijden op een dag.">
 
 **Breakdownschets gedetailleerd op meerdere sections**<br />
-<img src="images/break_detail.png" width="375px" alt="De breakdownschets van een deel van de overzichtspagina van de wedstrijden op een dag.">
+<img src="https://github.com/ROEL2407/frontendHVA/blob/main/images/break_detail.png?raw=true" width="375px" alt="De breakdownschets van een deel van de overzichtspagina van de wedstrijden op een dag.">
 
 
 
@@ -93,20 +93,20 @@ Niets ging eigenlijk heel slecht, ik heb een paar keer ruzie gehad met de css di
 
 **Screenshot(s) van de eerste pagina (small screen) overzichtspagina:**
 
-<img src="images/overzicht.PNG" width="375px" alt="Het overzicht van de wedstrijden op een bepaalde dag van alle competities.">
-<img src="images/overzicht_competitie.PNG" width="375px" alt="Het overzicht van de wedstrijden op een bepaalde dag van 1 competitie.">
+<img src="https://github.com/ROEL2407/frontendHVA/blob/main/images/overzicht.PNG?raw=true" width="375px" alt="Het overzicht van de wedstrijden op een bepaalde dag van alle competities.">
+<img src="https://github.com/ROEL2407/frontendHVA/blob/main/images/overzicht_competitie.PNG?raw=true" width="375px" alt="Het overzicht van de wedstrijden op een bepaalde dag van 1 competitie.">
 
 **Screenshot(s) van de tweede pagina (small screen) wedstrijdpagina:**
 **Wedstrijd**
-<img src="images/wedstrijd.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is."><br />
-<img src="images/wedstrijd1.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, deel 2."><br />
-<img src="images/wedstrijd2.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, deel 3."><br />
+<img src="https://github.com/ROEL2407/frontendHVA/blob/main/images/wedstrijd.PNG?raw=true" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is."><br />
+<img src="https://github.com/ROEL2407/frontendHVA/blob/main/images/wedstrijd1.PNG?raw=true" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, deel 2."><br />
+<img src="https://github.com/ROEL2407/frontendHVA/blob/main/images/wedstrijd2.PNG?raw=true" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, deel 3."><br />
 **Opstelling**<br />
-<img src="images/wedstrijd_opst.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de opstellingen en de spelers te zien."><br />
-<img src="images/wedstrijd_opst1.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de opstellingen en de spelers te zien, deel 2."><br />
+<img src="https://github.com/ROEL2407/frontendHVA/blob/main/images/wedstrijd_opst.PNG?raw=true" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de opstellingen en de spelers te zien."><br />
+<img src="https://github.com/ROEL2407/frontendHVA/blob/main/images/wedstrijd_opst1.PNG?raw=true" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de opstellingen en de spelers te zien, deel 2."><br />
 **Onderling resultaat**<br />
-<img src="images/wedstrijd_his1.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de onderlinge ressultaten te zien."><br />
-<img src="images/wedstrijd_his2.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de onderlinge ressultaten te zien, deel 2."><br />
+<img src="https://github.com/ROEL2407/frontendHVA/blob/main/images/wedstrijd_his1.PNG?raw=true" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de onderlinge ressultaten te zien."><br />
+<img src="https://github.com/ROEL2407/frontendHVA/blob/main/images/wedstrijd_his2.PNG?raw=true" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die al gespeeld is, hier zijn de onderlinge ressultaten te zien, deel 2."><br />
 
 **Voor de wedstrijd**<br />
-<img src="images/wedstrijd_leeg.PNG" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die gespeeld moet worden">
+<img src="https://github.com/ROEL2407/frontendHVA/blob/main/images/wedstrijd_leeg.PNG?raw=true" width="375px" alt="Het overzicht van 1 bepaalde wedstrijd die gespeeld moet worden">
